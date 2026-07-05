@@ -3,10 +3,395 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="120">
   <title>Paper Bot Cloud</title>
+  <style>
+    :root {
+      --bg:#0b1020; --panel:#151d37; --panel2:#1d284a; --text:#f5f7ff;
+      --muted:#aeb9d8; --line:rgba(255,255,255,.12);
+      --good:#1fc77a; --warn:#ffcc33; --bad:#ff5c7a;
+    }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; padding:16px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:radial-gradient(circle at top,#22356f,var(--bg) 48%);
+      color:var(--text);
+    }
+    .wrap { max-width:960px; margin:0 auto; }
+    .hero {
+      background:linear-gradient(145deg,rgba(255,255,255,.11),rgba(255,255,255,.04));
+      border:1px solid var(--line); border-radius:28px; padding:24px; margin-bottom:16px;
+      box-shadow:0 18px 46px rgba(0,0,0,.34);
+    }
+    .status {
+      display:inline-flex; padding:10px 14px; border-radius:999px; font-weight:900;
+      letter-spacing:.02em;
+    }
+    .status.good { color:var(--good); background:rgba(31,199,122,.16); }
+    .status.warn { color:var(--warn); background:rgba(255,204,51,.16); }
+    .status.bad { color:var(--bad); background:rgba(255,92,122,.16); }
+    h1 { font-size:clamp(34px,9vw,66px); margin:16px 0 8px; letter-spacing:-.06em; line-height:.92; }
+    h2 { margin:0 0 14px; font-size:22px; letter-spacing:-.03em; }
+    h3 { margin:4px 0; font-size:16px; }
+    .sub { color:var(--muted); line-height:1.45; font-size:14px; }
+    .big-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:18px; }
+    .metric, .card, .signal {
+      background:rgba(255,255,255,.06); border:1px solid var(--line); border-radius:20px; padding:14px;
+    }
+    .metric span, .mini-grid span { display:block; color:var(--muted); font-size:12px; margin-bottom:5px; }
+    .metric b { font-size:28px; letter-spacing:-.04em; }
+    section {
+      background:rgba(21,29,55,.88); border:1px solid var(--line); border-radius:24px;
+      padding:18px; margin-bottom:16px;
+    }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+    .signals { display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+    .mini-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:10px; }
+    .mini-grid b { font-size:15px; }
+    .row { display:flex; justify-content:space-between; gap:8px; align-items:center; }
+    .badge { padding:6px 9px; border-radius:999px; font-size:12px; font-weight:900; }
+    .badge.buy { color:var(--warn); background:rgba(255,204,51,.17); }
+    .badge.skip { color:var(--muted); background:rgba(255,255,255,.08); }
+    .muted, .pick, p { color:var(--muted); }
+    .pick { margin-top:4px; }
+    p { margin:10px 0 0; font-size:12px; line-height:1.35; }
+    table { width:100%; border-collapse:collapse; font-size:13px; }
+    td, th { padding:9px 6px; border-bottom:1px solid var(--line); text-align:left; }
+    th { color:var(--muted); font-weight:700; }
+    .good { color:var(--good); font-weight:800; }
+    .warn { color:var(--warn); font-weight:800; }
+    .bad { color:var(--bad); font-weight:800; }
+    .empty { color:var(--muted); border:1px dashed var(--line); border-radius:16px; padding:14px; }
+    pre { white-space:pre-wrap; overflow:auto; color:var(--muted); }
+    footer { text-align:center; color:var(--muted); font-size:12px; padding:20px 0; }
+    @media(max-width:760px) {
+      body { padding:10px; }
+      .hero { padding:20px; border-radius:24px; }
+      .big-grid, .cards, .signals { grid-template-columns:1fr; }
+      .mini-grid { grid-template-columns:repeat(2,1fr); }
+    }
+  </style>
 </head>
 <body>
-  <h1>Paper Bot Cloud</h1>
-  <p>Noch kein Lauf. Starte den GitHub Actions Workflow.</p>
+  <div class="wrap">
+    <div class="hero">
+      <div class="status good">ALLES RUHIG</div>
+      <h1>Paper Bot Cloud</h1>
+      <div class="sub">
+        Letzter Lauf: 2026-07-05T13:17:19+00:00<br>
+        Läuft über GitHub Actions. Seite aktualisiert sich automatisch alle 120 Sekunden.<br>
+        Nur Paper-Trading. Keine echten Orders.
+      </div>
+      <div class="big-grid">
+        <div class="metric"><span>PAPER_BUY</span><b>0</b></div>
+        <div class="metric"><span>Signale</span><b>66</b></div>
+        <div class="metric"><span>Fehler</span><b>0</b></div>
+        <div class="metric"><span>Quota</span><b>475</b></div>
+      </div>
+    </div>
+
+    <section>
+      <h2>Bereiche</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Tennis</h3>
+          <div class="mini-grid">
+            <div><span>Märkte</span><b>141</b></div>
+            <div><span>Signale</span><b>26</b></div>
+            <div><span>Buy</span><b>0</b></div>
+            <div><span>Odds</span><b>16</b></div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h3>WNBA</h3>
+          <div class="mini-grid">
+            <div><span>Märkte</span><b>39</b></div>
+            <div><span>Signale</span><b>12</b></div>
+            <div><span>Buy</span><b>0</b></div>
+            <div><span>Odds</span><b>5</b></div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h3>UFC</h3>
+          <div class="mini-grid">
+            <div><span>Märkte</span><b>25</b></div>
+            <div><span>Signale</span><b>28</b></div>
+            <div><span>Buy</span><b>0</b></div>
+            <div><span>Odds</span><b>14</b></div>
+          </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+      <h2>PAPER_BUY</h2>
+      <div class="signals"><div class="empty">Kein PAPER_BUY gefunden.</div></div>
+    </section>
+
+    <section>
+      <h2>Beste aktuelle Kanten</h2>
+      <div class="signals">
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: Brandon Royval vs. Lone&#x27;er Kavanagh (Flyweight, Main Card)</h3>
+          <div class="pick">Brandon Royval</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>31.00%</b></div>
+            <div><span>Fair</span><b>34.27%</b></div>
+            <div><span>Netto</span><b>1.77%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Golden State Valkyries vs. Washington Mystics</h3>
+          <div class="pick">Washington Mystics</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>38.00%</b></div>
+            <div><span>Fair</span><b>40.72%</b></div>
+            <div><span>Netto</span><b>1.22%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon ATP: Hubert Hurkacz vs Jan-Lennard Struff</h3>
+          <div class="pick">Jan-Lennard Struff</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>25.00%</b></div>
+            <div><span>Fair</span><b>27.52%</b></div>
+            <div><span>Netto</span><b>1.02%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon ATP: Jannik Sinner vs Shintaro Mochizuki</h3>
+          <div class="pick">Shintaro Mochizuki</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>3.30%</b></div>
+            <div><span>Fair</span><b>5.31%</b></div>
+            <div><span>Netto</span><b>0.51%</b></div>
+            <div><span>Spread</span><b>0.10%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: Robert Whittaker vs. Nikita Krylov (Light Heavyweight, Prelims)</h3>
+          <div class="pick">Robert Whittaker</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>57.00%</b></div>
+            <div><span>Fair</span><b>58.79%</b></div>
+            <div><span>Netto</span><b>0.29%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: King Green vs. Terrance McKinney (Lightweight, Main Card)</h3>
+          <div class="pick">King Green</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>42.00%</b></div>
+            <div><span>Fair</span><b>43.15%</b></div>
+            <div><span>Netto</span><b>-0.35%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon ATP: Grigor Dimitrov vs Arthur Fery</h3>
+          <div class="pick">Arthur Fery</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>34.00%</b></div>
+            <div><span>Fair</span><b>34.94%</b></div>
+            <div><span>Netto</span><b>-0.56%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: Zachary Reese vs. Ryan Gandra (Middleweight, Early Prelims)</h3>
+          <div class="pick">Zachary Reese</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>44.00%</b></div>
+            <div><span>Fair</span><b>44.88%</b></div>
+            <div><span>Netto</span><b>-0.62%</b></div>
+            <div><span>Spread</span><b>2.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: Kai Kamaka III vs. Luke Riley (Featherweight, Prelims)</h3>
+          <div class="pick">Luke Riley</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>73.00%</b></div>
+            <div><span>Fair</span><b>73.88%</b></div>
+            <div><span>Netto</span><b>-0.62%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: Cory Sandhagen vs. Mario Bautista (Bantamweight, Main Card)</h3>
+          <div class="pick">Mario Bautista</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>42.00%</b></div>
+            <div><span>Fair</span><b>42.84%</b></div>
+            <div><span>Netto</span><b>-0.66%</b></div>
+            <div><span>Spread</span><b>2.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon WTA: Ashlyn Krueger vs Marta Kostyuk</h3>
+          <div class="pick">Ashlyn Krueger</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>33.00%</b></div>
+            <div><span>Fair</span><b>33.81%</b></div>
+            <div><span>Netto</span><b>-0.69%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon WTA: Aryna Sabalenka vs Naomi Osaka</h3>
+          <div class="pick">Naomi Osaka</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>32.00%</b></div>
+            <div><span>Fair</span><b>32.71%</b></div>
+            <div><span>Netto</span><b>-0.79%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC 329: Wang Cong vs. Tracy Cortez (Women&#x27;s Flyweight, Early Prelims)</h3>
+          <div class="pick">Wang Cong</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>51.00%</b></div>
+            <div><span>Fair</span><b>51.57%</b></div>
+            <div><span>Netto</span><b>-0.93%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon WTA: Madison Keys vs Linda Noskova</h3>
+          <div class="pick">Linda Noskova</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>42.00%</b></div>
+            <div><span>Fair</span><b>42.53%</b></div>
+            <div><span>Netto</span><b>-0.97%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        </div>
+    </section>
+
+    <section>
+      <h2>Historie</h2>
+      <table>
+        <thead><tr><th>Zeit UTC</th><th>Buy</th><th>Signale</th><th>Quota</th></tr></thead>
+        <tbody>
+        <tr>
+          <td>2026-07-05T13:17:19+00:00</td>
+          <td class="good">0</td>
+          <td>66</td>
+          <td>475</td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+
+    <footer>
+      Wenn PAPER_BUY > 0 angezeigt wird: Bericht kopieren und prüfen. Keine echten Orders.
+    </footer>
+  </div>
 </body>
 </html>
