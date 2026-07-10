@@ -51,6 +51,8 @@
     .row { display:flex; justify-content:space-between; gap:8px; align-items:center; }
     .badge { padding:6px 9px; border-radius:999px; font-size:12px; font-weight:900; }
     .badge.buy { color:var(--warn); background:rgba(255,204,51,.17); }
+    .badge.win { color:var(--good); background:rgba(55,214,122,.16); }
+    .badge.loss { color:var(--bad); background:rgba(255,93,115,.16); }
     .badge.skip { color:var(--muted); background:rgba(255,255,255,.08); }
     .muted, .pick, p { color:var(--muted); }
     .pick { margin-top:4px; }
@@ -78,7 +80,7 @@
       <div class="status good">ALLES RUHIG</div>
       <h1>Paper Bot Cloud</h1>
       <div class="sub">
-        Letzter Lauf: 2026-07-10T10:40:13+00:00<br>
+        Letzter Lauf: 2026-07-10T10:52:39+00:00<br>
         Läuft über GitHub Actions. Seite aktualisiert sich automatisch alle 120 Sekunden.<br>
         Nur Paper-Trading. Keine echten Orders.
       </div>
@@ -86,7 +88,7 @@
         <div class="metric"><span>PAPER_BUY</span><b>0</b></div>
         <div class="metric"><span>Signale</span><b>64</b></div>
         <div class="metric"><span>Fehler</span><b>0</b></div>
-        <div class="metric"><span>Quota</span><b>368</b></div>
+        <div class="metric"><span>Quota</span><b>356</b></div>
       </div>
     </div>
 
@@ -96,7 +98,7 @@
         <div class="card">
           <h3>Tennis</h3>
           <div class="mini-grid">
-            <div><span>Märkte</span><b>55</b></div>
+            <div><span>Märkte</span><b>54</b></div>
             <div><span>Signale</span><b>6</b></div>
             <div><span>Buy</span><b>0</b></div>
             <div><span>Odds</span><b>3</b></div>
@@ -129,7 +131,7 @@
             <div><span>Märkte</span><b>54</b></div>
             <div><span>Signale</span><b>0</b></div>
             <div><span>Buy</span><b>0</b></div>
-            <div><span>Odds</span><b>14</b></div>
+            <div><span>Odds</span><b>16</b></div>
           </div>
         </div>
         </div>
@@ -140,9 +142,19 @@
       <div class="big-grid">
         <div class="metric"><span>Cash</span><b>$997.50</b></div>
         <div class="metric"><span>Offen</span><b>1</b></div>
-        <div class="metric"><span>Risiko</span><b>$2.50</b></div>
+        <div class="metric"><span>Realisiert</span><b>$0.00</b></div>
         <div class="metric"><span>Equity</span><b>$1000.00</b></div>
       </div>
+    </section>
+
+    <section>
+      <h2>Neue Abrechnungen</h2>
+      <div class="signals"><div class="empty">In diesem Lauf wurde keine Position abgerechnet.</div></div>
+    </section>
+
+    <section>
+      <h2>Geschlossene Paper-Positionen</h2>
+      <div class="signals"><div class="empty">Noch keine abgeschlossenen Paper-Positionen.</div></div>
     </section>
 
     <section>
@@ -250,6 +262,23 @@
         <div class="signal">
           <div class="row">
             <span class="badge skip">SKIP</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Chicago Sky vs. Los Angeles Sparks</h3>
+          <div class="pick">Los Angeles Sparks</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>51.00%</b></div>
+            <div><span>Fair</span><b>52.00%</b></div>
+            <div><span>Netto</span><b>-0.50%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
             <span class="muted">UFC</span>
           </div>
           <h3>UFC 329: King Green vs. Terrance McKinney (Lightweight, Main Card)</h3>
@@ -318,6 +347,23 @@
         <div class="signal">
           <div class="row">
             <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Wimbledon ATP: Arthur Fery vs Alexander Zverev</h3>
+          <div class="pick">Arthur Fery</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>15.00%</b></div>
+            <div><span>Fair</span><b>15.53%</b></div>
+            <div><span>Netto</span><b>-0.97%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
             <span class="muted">UFC</span>
           </div>
           <h3>UFC 329: Brandon Royval vs. Lone&#x27;er Kavanagh (Flyweight, Main Card)</h3>
@@ -369,23 +415,6 @@
         <div class="signal">
           <div class="row">
             <span class="badge skip">SKIP</span>
-            <span class="muted">Tennis</span>
-          </div>
-          <h3>Wimbledon ATP: Arthur Fery vs Alexander Zverev</h3>
-          <div class="pick">Arthur Fery</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>15.00%</b></div>
-            <div><span>Fair</span><b>15.41%</b></div>
-            <div><span>Netto</span><b>-1.09%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
             <span class="muted">UFC</span>
           </div>
           <h3>UFC 329: Paddy Pimblett vs. Benoît Saint Denis (Lightweight, Main Card)</h3>
@@ -398,23 +427,6 @@
           </div>
           <p>Netto-Edge zu klein</p>
         </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">UFC</span>
-          </div>
-          <h3>UFC 329: Kai Kamaka III vs. Luke Riley (Featherweight, Prelims)</h3>
-          <div class="pick">Kai Kamaka III</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>30.00%</b></div>
-            <div><span>Fair</span><b>30.26%</b></div>
-            <div><span>Netto</span><b>-1.24%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
         </div>
     </section>
 
@@ -423,6 +435,13 @@
       <table>
         <thead><tr><th>Zeit UTC</th><th>Buy</th><th>Signale</th><th>Quota</th></tr></thead>
         <tbody>
+        <tr>
+          <td>2026-07-10T10:52:39+00:00</td>
+          <td class="good">0</td>
+          <td>64</td>
+          <td>356</td>
+        </tr>
+        
         <tr>
           <td>2026-07-10T10:40:13+00:00</td>
           <td class="good">0</td>
@@ -526,13 +545,6 @@
           <td class="good">0</td>
           <td>58</td>
           <td>463</td>
-        </tr>
-        
-        <tr>
-          <td>2026-07-05T21:39:14+00:00</td>
-          <td class="good">0</td>
-          <td>54</td>
-          <td>467</td>
         </tr>
         </tbody>
       </table>
