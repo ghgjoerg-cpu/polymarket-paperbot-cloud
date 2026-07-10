@@ -3,7 +3,7 @@ name: Polymarket Paper Bot Cloud
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: write
