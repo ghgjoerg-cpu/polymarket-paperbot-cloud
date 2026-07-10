@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-07-10T10:38:12+00:00",
+  "generated_at_utc": "2026-07-10T10:40:13+00:00",
   "paper_buy_count": 0,
   "signal_count": 64,
-  "quota_remaining": "380",
-  "quota_used": "120",
+  "quota_remaining": "368",
+  "quota_used": "132",
   "per_target": [
     {
       "name": "Tennis",
@@ -119,11 +119,11 @@
     "open_risk": 2.5,
     "open_max_profit": 2.1296,
     "estimated_equity": 1000.0,
-    "last_updated_utc": "2026-07-10T10:38:12+00:00"
+    "last_updated_utc": "2026-07-10T10:40:13+00:00"
   },
   "best_signals": [
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Felipe Franco vs. Levi Rodrigues Jr. (Light Heavyweight, Prelims)",
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Dallas Wings vs. Toronto Tempo",
@@ -295,7 +295,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Jean-Paul Lebosnoyani vs. Seokhyeon Ko (Welterweight, Prelims)",
@@ -353,7 +353,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
@@ -391,8 +391,8 @@
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
           "selection_price": 3.0,
-          "opponent_price": 1.49,
-          "fair_probability": 0.33184855233853
+          "opponent_price": 1.48,
+          "fair_probability": 0.33035714285714285
         },
         {
           "bookmaker": "betonlineag",
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: King Green vs. Terrance McKinney (Lightweight, Main Card)",
@@ -581,7 +581,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cesar Almeida vs. Damian Pinas (Middleweight, Early Prelims)",
@@ -681,7 +681,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Phoenix Mercury vs. Las Vegas Aces",
@@ -795,7 +795,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Zachary Reese vs. Ryan Gandra (Middleweight, Early Prelims)",
@@ -888,7 +888,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Brandon Royval vs. Lone'er Kavanagh (Flyweight, Main Card)",
@@ -1002,7 +1002,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Robert Whittaker vs. Nikita Krylov (Light Heavyweight, Prelims)",
@@ -1109,7 +1109,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Golden State Valkyries vs. Connecticut Sun",
@@ -1223,7 +1223,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Arthur Fery vs Alexander Zverev",
@@ -1233,7 +1233,7 @@
       "outcome_index": 0,
       "best_bid": 0.14,
       "best_ask": 0.15,
-      "best_ask_size": 162259.16,
+      "best_ask_size": 162201.34,
       "spread": 0.009999999999999981,
       "fair_probability": 0.15410768009399067,
       "conservative_probability": 0.13910768009399066,
@@ -1337,7 +1337,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Paddy Pimblett vs. Benoît Saint Denis (Lightweight, Main Card)",
@@ -1349,11 +1349,11 @@
       "best_ask": 0.42,
       "best_ask_size": 24932.64,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.423076923076923,
-      "conservative_probability": 0.408076923076923,
-      "gross_edge": 0.0030769230769230327,
-      "net_edge": -0.01192307692307698,
-      "expected_roi": -0.028388278388278527,
+      "fair_probability": 0.4229828850855746,
+      "conservative_probability": 0.40798288508557456,
+      "gross_edge": 0.0029828850855745936,
+      "net_edge": -0.01201711491442542,
+      "expected_roi": -0.028612178367679573,
       "bookmaker_count": 15,
       "match_score": 0.9908854166666666,
       "time_diff_hours": 5.833333333333333,
@@ -1451,7 +1451,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Kai Kamaka III vs. Luke Riley (Featherweight, Prelims)",
@@ -1544,7 +1544,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Gable Steveson vs. Elisha Ellison (Heavyweight, Prelims)",
@@ -1644,7 +1644,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Farid Basharat vs. John Garza (Bantamweight, Early Prelims)",
@@ -1744,7 +1744,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Chicago Sky vs. Los Angeles Sparks",
@@ -1824,8 +1824,8 @@
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
           "selection_price": 1.96,
-          "opponent_price": 1.96,
-          "fair_probability": 0.5
+          "opponent_price": 1.97,
+          "fair_probability": 0.5012722646310432
         },
         {
           "bookmaker": "unibet_nl",
@@ -1858,7 +1858,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Wang Cong vs. Tracy Cortez (Women's Flyweight, Early Prelims)",
@@ -1951,7 +1951,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Kamaru Usman vs. Dricus Du Plessis (Middleweight, Main Card)",
@@ -2044,7 +2044,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cory Sandhagen vs. Mario Bautista (Bantamweight, Main Card)",
@@ -2054,7 +2054,7 @@
       "outcome_index": 0,
       "best_bid": 0.55,
       "best_ask": 0.56,
-      "best_ask_size": 14477.93,
+      "best_ask_size": 14470.78,
       "spread": 0.010000000000000009,
       "fair_probability": 0.5564102564102563,
       "conservative_probability": 0.5414102564102563,
@@ -2158,23 +2158,23 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
       "kickoff_utc": "2026-07-11T15:00:00+00:00",
-      "selection": "Karolina Muchova",
-      "opponent": "Linda Noskova",
-      "outcome_index": 0,
-      "best_bid": 0.52,
-      "best_ask": 0.53,
-      "best_ask_size": 2243.28,
+      "selection": "Linda Noskova",
+      "opponent": "Karolina Muchova",
+      "outcome_index": 1,
+      "best_bid": 0.47,
+      "best_ask": 0.48,
+      "best_ask_size": 118750.18,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.5263157894736843,
-      "conservative_probability": 0.5113157894736843,
-      "gross_edge": -0.0036842105263157343,
-      "net_edge": -0.018684210526315748,
-      "expected_roi": -0.03525322740814292,
+      "fair_probability": 0.4760705289672543,
+      "conservative_probability": 0.4610705289672543,
+      "gross_edge": -0.003929471032745657,
+      "net_edge": -0.01892947103274567,
+      "expected_roi": -0.039436397984886816,
       "bookmaker_count": 23,
       "match_score": 0.990625,
       "time_diff_hours": 6.0,
@@ -2183,96 +2183,96 @@
       "reasons": "Netto-Edge zu klein",
       "polymarket_event_id": "685720",
       "polymarket_market_id": "2864337",
-      "polymarket_token_id": "86055118242456423608991047651994876723011431605683123927757362733915681288062",
+      "polymarket_token_id": "6877591429295187381204977907984243539104174752734709721435561210590152772541",
       "bookmaker_details": [
         {
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
-          "selection_price": 1.89,
-          "opponent_price": 2.1,
-          "fair_probability": 0.5263157894736843
+          "selection_price": 2.08,
+          "opponent_price": 1.89,
+          "fair_probability": 0.4760705289672543
         },
         {
           "bookmaker": "pmu_fr",
           "title": "PMU (FR)",
-          "selection_price": 1.78,
-          "opponent_price": 2.0,
-          "fair_probability": 0.5291005291005291
+          "selection_price": 2.0,
+          "opponent_price": 1.78,
+          "fair_probability": 0.4708994708994709
         },
         {
           "bookmaker": "unibet_se",
           "title": "Unibet (SE)",
-          "selection_price": 1.81,
-          "opponent_price": 2.04,
-          "fair_probability": 0.5298701298701299
+          "selection_price": 2.04,
+          "opponent_price": 1.81,
+          "fair_probability": 0.4701298701298701
         },
         {
           "bookmaker": "unibet_nl",
           "title": "Unibet (NL)",
-          "selection_price": 1.81,
-          "opponent_price": 2.04,
-          "fair_probability": 0.5298701298701299
+          "selection_price": 2.04,
+          "opponent_price": 1.81,
+          "fair_probability": 0.4701298701298701
         },
         {
           "bookmaker": "leovegas_se",
           "title": "LeoVegas (SE)",
-          "selection_price": 1.81,
-          "opponent_price": 2.04,
-          "fair_probability": 0.5298701298701299
+          "selection_price": 2.04,
+          "opponent_price": 1.81,
+          "fair_probability": 0.4701298701298701
         },
         {
           "bookmaker": "coolbet",
           "title": "Coolbet",
-          "selection_price": 1.84,
-          "opponent_price": 2.05,
-          "fair_probability": 0.5269922879177378
+          "selection_price": 2.05,
+          "opponent_price": 1.84,
+          "fair_probability": 0.4730077120822623
         },
         {
           "bookmaker": "nordicbet",
           "title": "Nordic Bet",
-          "selection_price": 1.8,
-          "opponent_price": 1.97,
-          "fair_probability": 0.5225464190981433
+          "selection_price": 1.97,
+          "opponent_price": 1.8,
+          "fair_probability": 0.47745358090185674
         },
         {
           "bookmaker": "unibet_fr",
           "title": "Unibet (FR)",
-          "selection_price": 1.83,
-          "opponent_price": 2.0,
-          "fair_probability": 0.5221932114882506
+          "selection_price": 2.0,
+          "opponent_price": 1.83,
+          "fair_probability": 0.47780678851174935
         },
         {
           "bookmaker": "betsson",
           "title": "Betsson",
-          "selection_price": 1.8,
-          "opponent_price": 1.97,
-          "fair_probability": 0.5225464190981433
+          "selection_price": 1.97,
+          "opponent_price": 1.8,
+          "fair_probability": 0.47745358090185674
         },
         {
           "bookmaker": "betclic_fr",
           "title": "Betclic (FR)",
-          "selection_price": 1.84,
-          "opponent_price": 2.01,
-          "fair_probability": 0.522077922077922
+          "selection_price": 2.01,
+          "opponent_price": 1.84,
+          "fair_probability": 0.4779220779220779
         },
         {
           "bookmaker": "mybookieag",
           "title": "MyBookie.ag",
-          "selection_price": 1.78,
-          "opponent_price": 1.93,
-          "fair_probability": 0.5202156334231806
+          "selection_price": 1.93,
+          "opponent_price": 1.78,
+          "fair_probability": 0.47978436657681944
         },
         {
           "bookmaker": "winamax_de",
           "title": "Winamax (DE)",
-          "selection_price": 1.84,
-          "opponent_price": 2.0,
-          "fair_probability": 0.5208333333333334
+          "selection_price": 2.0,
+          "opponent_price": 1.84,
+          "fair_probability": 0.4791666666666667
         }
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Durden vs. Alessandro Costa (Flyweight, Early Prelims)",
@@ -2365,7 +2365,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
@@ -2375,7 +2375,7 @@
       "outcome_index": 0,
       "best_bid": 0.79,
       "best_ask": 0.8,
-      "best_ask_size": 57571.08,
+      "best_ask_size": 58025.08,
       "spread": 0.010000000000000009,
       "fair_probability": 0.795746320993665,
       "conservative_probability": 0.780746320993665,
@@ -2479,7 +2479,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Garbrandt vs. Adrian Yanez (Bantamweight, Prelims)",
@@ -2579,7 +2579,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Garbrandt vs. Adrian Yanez (Bantamweight, Prelims)",
@@ -2679,7 +2679,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
@@ -2689,7 +2689,7 @@
       "outcome_index": 1,
       "best_bid": 0.2,
       "best_ask": 0.21,
-      "best_ask_size": 89630.07,
+      "best_ask_size": 89110.07,
       "spread": 0.009999999999999981,
       "fair_probability": 0.204253679006335,
       "conservative_probability": 0.189253679006335,
@@ -2793,7 +2793,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Durden vs. Alessandro Costa (Flyweight, Early Prelims)",
@@ -2886,7 +2886,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Gable Steveson vs. Elisha Ellison (Heavyweight, Prelims)",
@@ -2986,23 +2986,23 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
       "kickoff_utc": "2026-07-11T15:00:00+00:00",
-      "selection": "Linda Noskova",
-      "opponent": "Karolina Muchova",
-      "outcome_index": 1,
-      "best_bid": 0.47,
-      "best_ask": 0.48,
-      "best_ask_size": 120752.18,
+      "selection": "Karolina Muchova",
+      "opponent": "Linda Noskova",
+      "outcome_index": 0,
+      "best_bid": 0.52,
+      "best_ask": 0.53,
+      "best_ask_size": 2301.95,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.47368421052631576,
-      "conservative_probability": 0.45868421052631575,
-      "gross_edge": -0.006315789473684219,
-      "net_edge": -0.021315789473684232,
-      "expected_roi": -0.04440789473684215,
+      "fair_probability": 0.5239294710327457,
+      "conservative_probability": 0.5089294710327457,
+      "gross_edge": -0.006070528967254352,
+      "net_edge": -0.021070528967254365,
+      "expected_roi": -0.03975571503255541,
       "bookmaker_count": 23,
       "match_score": 0.990625,
       "time_diff_hours": 6.0,
@@ -3011,96 +3011,96 @@
       "reasons": "Netto-Edge zu klein",
       "polymarket_event_id": "685720",
       "polymarket_market_id": "2864337",
-      "polymarket_token_id": "6877591429295187381204977907984243539104174752734709721435561210590152772541",
+      "polymarket_token_id": "86055118242456423608991047651994876723011431605683123927757362733915681288062",
       "bookmaker_details": [
         {
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
-          "selection_price": 2.1,
-          "opponent_price": 1.89,
-          "fair_probability": 0.47368421052631576
+          "selection_price": 1.89,
+          "opponent_price": 2.08,
+          "fair_probability": 0.5239294710327457
         },
         {
           "bookmaker": "pmu_fr",
           "title": "PMU (FR)",
-          "selection_price": 2.0,
-          "opponent_price": 1.78,
-          "fair_probability": 0.4708994708994709
+          "selection_price": 1.78,
+          "opponent_price": 2.0,
+          "fair_probability": 0.5291005291005291
         },
         {
           "bookmaker": "unibet_se",
           "title": "Unibet (SE)",
-          "selection_price": 2.04,
-          "opponent_price": 1.81,
-          "fair_probability": 0.4701298701298701
+          "selection_price": 1.81,
+          "opponent_price": 2.04,
+          "fair_probability": 0.5298701298701299
         },
         {
           "bookmaker": "unibet_nl",
           "title": "Unibet (NL)",
-          "selection_price": 2.04,
-          "opponent_price": 1.81,
-          "fair_probability": 0.4701298701298701
+          "selection_price": 1.81,
+          "opponent_price": 2.04,
+          "fair_probability": 0.5298701298701299
         },
         {
           "bookmaker": "leovegas_se",
           "title": "LeoVegas (SE)",
-          "selection_price": 2.04,
-          "opponent_price": 1.81,
-          "fair_probability": 0.4701298701298701
+          "selection_price": 1.81,
+          "opponent_price": 2.04,
+          "fair_probability": 0.5298701298701299
         },
         {
           "bookmaker": "coolbet",
           "title": "Coolbet",
-          "selection_price": 2.05,
-          "opponent_price": 1.84,
-          "fair_probability": 0.4730077120822623
+          "selection_price": 1.84,
+          "opponent_price": 2.05,
+          "fair_probability": 0.5269922879177378
         },
         {
           "bookmaker": "nordicbet",
           "title": "Nordic Bet",
-          "selection_price": 1.97,
-          "opponent_price": 1.8,
-          "fair_probability": 0.47745358090185674
+          "selection_price": 1.8,
+          "opponent_price": 1.97,
+          "fair_probability": 0.5225464190981433
         },
         {
           "bookmaker": "unibet_fr",
           "title": "Unibet (FR)",
-          "selection_price": 2.0,
-          "opponent_price": 1.83,
-          "fair_probability": 0.47780678851174935
+          "selection_price": 1.83,
+          "opponent_price": 2.0,
+          "fair_probability": 0.5221932114882506
         },
         {
           "bookmaker": "betsson",
           "title": "Betsson",
-          "selection_price": 1.97,
-          "opponent_price": 1.8,
-          "fair_probability": 0.47745358090185674
+          "selection_price": 1.8,
+          "opponent_price": 1.97,
+          "fair_probability": 0.5225464190981433
         },
         {
           "bookmaker": "betclic_fr",
           "title": "Betclic (FR)",
-          "selection_price": 2.01,
-          "opponent_price": 1.84,
-          "fair_probability": 0.4779220779220779
+          "selection_price": 1.84,
+          "opponent_price": 2.01,
+          "fair_probability": 0.522077922077922
         },
         {
           "bookmaker": "mybookieag",
           "title": "MyBookie.ag",
-          "selection_price": 1.93,
-          "opponent_price": 1.78,
-          "fair_probability": 0.47978436657681944
+          "selection_price": 1.78,
+          "opponent_price": 1.93,
+          "fair_probability": 0.5202156334231806
         },
         {
           "bookmaker": "winamax_de",
           "title": "Winamax (DE)",
-          "selection_price": 2.0,
-          "opponent_price": 1.84,
-          "fair_probability": 0.4791666666666667
+          "selection_price": 1.84,
+          "opponent_price": 2.0,
+          "fair_probability": 0.5208333333333334
         }
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cory Sandhagen vs. Mario Bautista (Bantamweight, Main Card)",
@@ -3216,7 +3216,7 @@
   ],
   "signals": [
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Felipe Franco vs. Levi Rodrigues Jr. (Light Heavyweight, Prelims)",
@@ -3274,7 +3274,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Dallas Wings vs. Toronto Tempo",
@@ -3388,7 +3388,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Jean-Paul Lebosnoyani vs. Seokhyeon Ko (Welterweight, Prelims)",
@@ -3446,7 +3446,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
@@ -3484,8 +3484,8 @@
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
           "selection_price": 3.0,
-          "opponent_price": 1.49,
-          "fair_probability": 0.33184855233853
+          "opponent_price": 1.48,
+          "fair_probability": 0.33035714285714285
         },
         {
           "bookmaker": "betonlineag",
@@ -3560,7 +3560,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: King Green vs. Terrance McKinney (Lightweight, Main Card)",
@@ -3674,7 +3674,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cesar Almeida vs. Damian Pinas (Middleweight, Early Prelims)",
@@ -3774,7 +3774,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Phoenix Mercury vs. Las Vegas Aces",
@@ -3888,7 +3888,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Zachary Reese vs. Ryan Gandra (Middleweight, Early Prelims)",
@@ -3981,7 +3981,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Brandon Royval vs. Lone'er Kavanagh (Flyweight, Main Card)",
@@ -4095,7 +4095,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Robert Whittaker vs. Nikita Krylov (Light Heavyweight, Prelims)",
@@ -4202,7 +4202,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Golden State Valkyries vs. Connecticut Sun",
@@ -4316,7 +4316,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Arthur Fery vs Alexander Zverev",
@@ -4326,7 +4326,7 @@
       "outcome_index": 0,
       "best_bid": 0.14,
       "best_ask": 0.15,
-      "best_ask_size": 162259.16,
+      "best_ask_size": 162201.34,
       "spread": 0.009999999999999981,
       "fair_probability": 0.15410768009399067,
       "conservative_probability": 0.13910768009399066,
@@ -4430,7 +4430,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Paddy Pimblett vs. Benoît Saint Denis (Lightweight, Main Card)",
@@ -4442,11 +4442,11 @@
       "best_ask": 0.42,
       "best_ask_size": 24932.64,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.423076923076923,
-      "conservative_probability": 0.408076923076923,
-      "gross_edge": 0.0030769230769230327,
-      "net_edge": -0.01192307692307698,
-      "expected_roi": -0.028388278388278527,
+      "fair_probability": 0.4229828850855746,
+      "conservative_probability": 0.40798288508557456,
+      "gross_edge": 0.0029828850855745936,
+      "net_edge": -0.01201711491442542,
+      "expected_roi": -0.028612178367679573,
       "bookmaker_count": 15,
       "match_score": 0.9908854166666666,
       "time_diff_hours": 5.833333333333333,
@@ -4544,7 +4544,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Kai Kamaka III vs. Luke Riley (Featherweight, Prelims)",
@@ -4637,7 +4637,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Gable Steveson vs. Elisha Ellison (Heavyweight, Prelims)",
@@ -4737,7 +4737,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Farid Basharat vs. John Garza (Bantamweight, Early Prelims)",
@@ -4837,7 +4837,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Chicago Sky vs. Los Angeles Sparks",
@@ -4917,8 +4917,8 @@
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
           "selection_price": 1.96,
-          "opponent_price": 1.96,
-          "fair_probability": 0.5
+          "opponent_price": 1.97,
+          "fair_probability": 0.5012722646310432
         },
         {
           "bookmaker": "unibet_nl",
@@ -4951,7 +4951,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Wang Cong vs. Tracy Cortez (Women's Flyweight, Early Prelims)",
@@ -5044,7 +5044,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Kamaru Usman vs. Dricus Du Plessis (Middleweight, Main Card)",
@@ -5137,7 +5137,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cory Sandhagen vs. Mario Bautista (Bantamweight, Main Card)",
@@ -5147,7 +5147,7 @@
       "outcome_index": 0,
       "best_bid": 0.55,
       "best_ask": 0.56,
-      "best_ask_size": 14477.93,
+      "best_ask_size": 14470.78,
       "spread": 0.010000000000000009,
       "fair_probability": 0.5564102564102563,
       "conservative_probability": 0.5414102564102563,
@@ -5251,23 +5251,23 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
       "kickoff_utc": "2026-07-11T15:00:00+00:00",
-      "selection": "Karolina Muchova",
-      "opponent": "Linda Noskova",
-      "outcome_index": 0,
-      "best_bid": 0.52,
-      "best_ask": 0.53,
-      "best_ask_size": 2243.28,
+      "selection": "Linda Noskova",
+      "opponent": "Karolina Muchova",
+      "outcome_index": 1,
+      "best_bid": 0.47,
+      "best_ask": 0.48,
+      "best_ask_size": 118750.18,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.5263157894736843,
-      "conservative_probability": 0.5113157894736843,
-      "gross_edge": -0.0036842105263157343,
-      "net_edge": -0.018684210526315748,
-      "expected_roi": -0.03525322740814292,
+      "fair_probability": 0.4760705289672543,
+      "conservative_probability": 0.4610705289672543,
+      "gross_edge": -0.003929471032745657,
+      "net_edge": -0.01892947103274567,
+      "expected_roi": -0.039436397984886816,
       "bookmaker_count": 23,
       "match_score": 0.990625,
       "time_diff_hours": 6.0,
@@ -5276,96 +5276,96 @@
       "reasons": "Netto-Edge zu klein",
       "polymarket_event_id": "685720",
       "polymarket_market_id": "2864337",
-      "polymarket_token_id": "86055118242456423608991047651994876723011431605683123927757362733915681288062",
+      "polymarket_token_id": "6877591429295187381204977907984243539104174752734709721435561210590152772541",
       "bookmaker_details": [
         {
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
-          "selection_price": 1.89,
-          "opponent_price": 2.1,
-          "fair_probability": 0.5263157894736843
+          "selection_price": 2.08,
+          "opponent_price": 1.89,
+          "fair_probability": 0.4760705289672543
         },
         {
           "bookmaker": "pmu_fr",
           "title": "PMU (FR)",
-          "selection_price": 1.78,
-          "opponent_price": 2.0,
-          "fair_probability": 0.5291005291005291
+          "selection_price": 2.0,
+          "opponent_price": 1.78,
+          "fair_probability": 0.4708994708994709
         },
         {
           "bookmaker": "unibet_se",
           "title": "Unibet (SE)",
-          "selection_price": 1.81,
-          "opponent_price": 2.04,
-          "fair_probability": 0.5298701298701299
+          "selection_price": 2.04,
+          "opponent_price": 1.81,
+          "fair_probability": 0.4701298701298701
         },
         {
           "bookmaker": "unibet_nl",
           "title": "Unibet (NL)",
-          "selection_price": 1.81,
-          "opponent_price": 2.04,
-          "fair_probability": 0.5298701298701299
+          "selection_price": 2.04,
+          "opponent_price": 1.81,
+          "fair_probability": 0.4701298701298701
         },
         {
           "bookmaker": "leovegas_se",
           "title": "LeoVegas (SE)",
-          "selection_price": 1.81,
-          "opponent_price": 2.04,
-          "fair_probability": 0.5298701298701299
+          "selection_price": 2.04,
+          "opponent_price": 1.81,
+          "fair_probability": 0.4701298701298701
         },
         {
           "bookmaker": "coolbet",
           "title": "Coolbet",
-          "selection_price": 1.84,
-          "opponent_price": 2.05,
-          "fair_probability": 0.5269922879177378
+          "selection_price": 2.05,
+          "opponent_price": 1.84,
+          "fair_probability": 0.4730077120822623
         },
         {
           "bookmaker": "nordicbet",
           "title": "Nordic Bet",
-          "selection_price": 1.8,
-          "opponent_price": 1.97,
-          "fair_probability": 0.5225464190981433
+          "selection_price": 1.97,
+          "opponent_price": 1.8,
+          "fair_probability": 0.47745358090185674
         },
         {
           "bookmaker": "unibet_fr",
           "title": "Unibet (FR)",
-          "selection_price": 1.83,
-          "opponent_price": 2.0,
-          "fair_probability": 0.5221932114882506
+          "selection_price": 2.0,
+          "opponent_price": 1.83,
+          "fair_probability": 0.47780678851174935
         },
         {
           "bookmaker": "betsson",
           "title": "Betsson",
-          "selection_price": 1.8,
-          "opponent_price": 1.97,
-          "fair_probability": 0.5225464190981433
+          "selection_price": 1.97,
+          "opponent_price": 1.8,
+          "fair_probability": 0.47745358090185674
         },
         {
           "bookmaker": "betclic_fr",
           "title": "Betclic (FR)",
-          "selection_price": 1.84,
-          "opponent_price": 2.01,
-          "fair_probability": 0.522077922077922
+          "selection_price": 2.01,
+          "opponent_price": 1.84,
+          "fair_probability": 0.4779220779220779
         },
         {
           "bookmaker": "mybookieag",
           "title": "MyBookie.ag",
-          "selection_price": 1.78,
-          "opponent_price": 1.93,
-          "fair_probability": 0.5202156334231806
+          "selection_price": 1.93,
+          "opponent_price": 1.78,
+          "fair_probability": 0.47978436657681944
         },
         {
           "bookmaker": "winamax_de",
           "title": "Winamax (DE)",
-          "selection_price": 1.84,
-          "opponent_price": 2.0,
-          "fair_probability": 0.5208333333333334
+          "selection_price": 2.0,
+          "opponent_price": 1.84,
+          "fair_probability": 0.4791666666666667
         }
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Durden vs. Alessandro Costa (Flyweight, Early Prelims)",
@@ -5458,7 +5458,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
@@ -5468,7 +5468,7 @@
       "outcome_index": 0,
       "best_bid": 0.79,
       "best_ask": 0.8,
-      "best_ask_size": 57571.08,
+      "best_ask_size": 58025.08,
       "spread": 0.010000000000000009,
       "fair_probability": 0.795746320993665,
       "conservative_probability": 0.780746320993665,
@@ -5572,7 +5572,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Garbrandt vs. Adrian Yanez (Bantamweight, Prelims)",
@@ -5672,7 +5672,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Garbrandt vs. Adrian Yanez (Bantamweight, Prelims)",
@@ -5772,7 +5772,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
@@ -5782,7 +5782,7 @@
       "outcome_index": 1,
       "best_bid": 0.2,
       "best_ask": 0.21,
-      "best_ask_size": 89630.07,
+      "best_ask_size": 89110.07,
       "spread": 0.009999999999999981,
       "fair_probability": 0.204253679006335,
       "conservative_probability": 0.189253679006335,
@@ -5886,7 +5886,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cody Durden vs. Alessandro Costa (Flyweight, Early Prelims)",
@@ -5979,7 +5979,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Gable Steveson vs. Elisha Ellison (Heavyweight, Prelims)",
@@ -6079,23 +6079,23 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon WTA: Karolina Muchova vs Linda Noskova",
       "kickoff_utc": "2026-07-11T15:00:00+00:00",
-      "selection": "Linda Noskova",
-      "opponent": "Karolina Muchova",
-      "outcome_index": 1,
-      "best_bid": 0.47,
-      "best_ask": 0.48,
-      "best_ask_size": 120752.18,
+      "selection": "Karolina Muchova",
+      "opponent": "Linda Noskova",
+      "outcome_index": 0,
+      "best_bid": 0.52,
+      "best_ask": 0.53,
+      "best_ask_size": 2301.95,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.47368421052631576,
-      "conservative_probability": 0.45868421052631575,
-      "gross_edge": -0.006315789473684219,
-      "net_edge": -0.021315789473684232,
-      "expected_roi": -0.04440789473684215,
+      "fair_probability": 0.5239294710327457,
+      "conservative_probability": 0.5089294710327457,
+      "gross_edge": -0.006070528967254352,
+      "net_edge": -0.021070528967254365,
+      "expected_roi": -0.03975571503255541,
       "bookmaker_count": 23,
       "match_score": 0.990625,
       "time_diff_hours": 6.0,
@@ -6104,96 +6104,96 @@
       "reasons": "Netto-Edge zu klein",
       "polymarket_event_id": "685720",
       "polymarket_market_id": "2864337",
-      "polymarket_token_id": "6877591429295187381204977907984243539104174752734709721435561210590152772541",
+      "polymarket_token_id": "86055118242456423608991047651994876723011431605683123927757362733915681288062",
       "bookmaker_details": [
         {
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
-          "selection_price": 2.1,
-          "opponent_price": 1.89,
-          "fair_probability": 0.47368421052631576
+          "selection_price": 1.89,
+          "opponent_price": 2.08,
+          "fair_probability": 0.5239294710327457
         },
         {
           "bookmaker": "pmu_fr",
           "title": "PMU (FR)",
-          "selection_price": 2.0,
-          "opponent_price": 1.78,
-          "fair_probability": 0.4708994708994709
+          "selection_price": 1.78,
+          "opponent_price": 2.0,
+          "fair_probability": 0.5291005291005291
         },
         {
           "bookmaker": "unibet_se",
           "title": "Unibet (SE)",
-          "selection_price": 2.04,
-          "opponent_price": 1.81,
-          "fair_probability": 0.4701298701298701
+          "selection_price": 1.81,
+          "opponent_price": 2.04,
+          "fair_probability": 0.5298701298701299
         },
         {
           "bookmaker": "unibet_nl",
           "title": "Unibet (NL)",
-          "selection_price": 2.04,
-          "opponent_price": 1.81,
-          "fair_probability": 0.4701298701298701
+          "selection_price": 1.81,
+          "opponent_price": 2.04,
+          "fair_probability": 0.5298701298701299
         },
         {
           "bookmaker": "leovegas_se",
           "title": "LeoVegas (SE)",
-          "selection_price": 2.04,
-          "opponent_price": 1.81,
-          "fair_probability": 0.4701298701298701
+          "selection_price": 1.81,
+          "opponent_price": 2.04,
+          "fair_probability": 0.5298701298701299
         },
         {
           "bookmaker": "coolbet",
           "title": "Coolbet",
-          "selection_price": 2.05,
-          "opponent_price": 1.84,
-          "fair_probability": 0.4730077120822623
+          "selection_price": 1.84,
+          "opponent_price": 2.05,
+          "fair_probability": 0.5269922879177378
         },
         {
           "bookmaker": "nordicbet",
           "title": "Nordic Bet",
-          "selection_price": 1.97,
-          "opponent_price": 1.8,
-          "fair_probability": 0.47745358090185674
+          "selection_price": 1.8,
+          "opponent_price": 1.97,
+          "fair_probability": 0.5225464190981433
         },
         {
           "bookmaker": "unibet_fr",
           "title": "Unibet (FR)",
-          "selection_price": 2.0,
-          "opponent_price": 1.83,
-          "fair_probability": 0.47780678851174935
+          "selection_price": 1.83,
+          "opponent_price": 2.0,
+          "fair_probability": 0.5221932114882506
         },
         {
           "bookmaker": "betsson",
           "title": "Betsson",
-          "selection_price": 1.97,
-          "opponent_price": 1.8,
-          "fair_probability": 0.47745358090185674
+          "selection_price": 1.8,
+          "opponent_price": 1.97,
+          "fair_probability": 0.5225464190981433
         },
         {
           "bookmaker": "betclic_fr",
           "title": "Betclic (FR)",
-          "selection_price": 2.01,
-          "opponent_price": 1.84,
-          "fair_probability": 0.4779220779220779
+          "selection_price": 1.84,
+          "opponent_price": 2.01,
+          "fair_probability": 0.522077922077922
         },
         {
           "bookmaker": "mybookieag",
           "title": "MyBookie.ag",
-          "selection_price": 1.93,
-          "opponent_price": 1.78,
-          "fair_probability": 0.47978436657681944
+          "selection_price": 1.78,
+          "opponent_price": 1.93,
+          "fair_probability": 0.5202156334231806
         },
         {
           "bookmaker": "winamax_de",
           "title": "Winamax (DE)",
-          "selection_price": 2.0,
-          "opponent_price": 1.84,
-          "fair_probability": 0.4791666666666667
+          "selection_price": 1.84,
+          "opponent_price": 2.0,
+          "fair_probability": 0.5208333333333334
         }
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cory Sandhagen vs. Mario Bautista (Bantamweight, Main Card)",
@@ -6307,7 +6307,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Kamaru Usman vs. Dricus Du Plessis (Middleweight, Main Card)",
@@ -6400,7 +6400,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "PortlandFire vs. Atlanta Dream",
@@ -6410,7 +6410,7 @@
       "outcome_index": 0,
       "best_bid": 0.15,
       "best_ask": 0.18,
-      "best_ask_size": 90.0,
+      "best_ask_size": 15.0,
       "spread": 0.03,
       "fair_probability": 0.17293233082706766,
       "conservative_probability": 0.15793233082706765,
@@ -6507,7 +6507,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Wang Cong vs. Tracy Cortez (Women's Flyweight, Early Prelims)",
@@ -6517,7 +6517,7 @@
       "outcome_index": 0,
       "best_bid": 0.51,
       "best_ask": 0.52,
-      "best_ask_size": 2280.4,
+      "best_ask_size": 2270.4,
       "spread": 0.010000000000000009,
       "fair_probability": 0.5106951871657753,
       "conservative_probability": 0.4956951871657753,
@@ -6600,7 +6600,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Chicago Sky vs. Los Angeles Sparks",
@@ -6679,9 +6679,9 @@
         {
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
-          "selection_price": 1.96,
+          "selection_price": 1.97,
           "opponent_price": 1.96,
-          "fair_probability": 0.5
+          "fair_probability": 0.49872773536895665
         },
         {
           "bookmaker": "unibet_nl",
@@ -6714,7 +6714,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Farid Basharat vs. John Garza (Bantamweight, Early Prelims)",
@@ -6814,114 +6814,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
-      "sport_name": "WNBA",
-      "decision": "SKIP",
-      "event_title": "New York Liberty vs. Minnesota Lynx",
-      "kickoff_utc": "2026-07-11T17:00:00+00:00",
-      "selection": "Minnesota Lynx",
-      "opponent": "New York Liberty",
-      "outcome_index": 1,
-      "best_bid": 0.57,
-      "best_ask": 0.6,
-      "best_ask_size": 75.0,
-      "spread": 0.030000000000000027,
-      "fair_probability": 0.588235294117647,
-      "conservative_probability": 0.573235294117647,
-      "gross_edge": -0.01176470588235301,
-      "net_edge": -0.026764705882353024,
-      "expected_roi": -0.04460784313725504,
-      "bookmaker_count": 11,
-      "match_score": 1.0,
-      "time_diff_hours": 0.0,
-      "odds_api_sport_key": "basketball_wnba",
-      "odds_api_event_id": "93c27f5318a98fdd2a9bfbc42269f134",
-      "reasons": "Netto-Edge zu klein",
-      "polymarket_event_id": "642974",
-      "polymarket_market_id": "2715022",
-      "polymarket_token_id": "54969542378328383279803068801271973898405428477850173639228000968451526941033",
-      "bookmaker_details": [
-        {
-          "bookmaker": "onexbet",
-          "title": "1xBet",
-          "selection_price": 1.62,
-          "opponent_price": 2.35,
-          "fair_probability": 0.5919395465994962
-        },
-        {
-          "bookmaker": "sport888",
-          "title": "888sport",
-          "selection_price": 1.61,
-          "opponent_price": 2.3,
-          "fair_probability": 0.588235294117647
-        },
-        {
-          "bookmaker": "nordicbet",
-          "title": "Nordic Bet",
-          "selection_price": 1.6,
-          "opponent_price": 2.25,
-          "fair_probability": 0.5844155844155844
-        },
-        {
-          "bookmaker": "betsson",
-          "title": "Betsson",
-          "selection_price": 1.6,
-          "opponent_price": 2.25,
-          "fair_probability": 0.5844155844155844
-        },
-        {
-          "bookmaker": "coolbet",
-          "title": "Coolbet",
-          "selection_price": 1.61,
-          "opponent_price": 2.28,
-          "fair_probability": 0.5861182519280206
-        },
-        {
-          "bookmaker": "gtbets",
-          "title": "GTbets",
-          "selection_price": 1.67,
-          "opponent_price": 2.3,
-          "fair_probability": 0.5793450881612091
-        },
-        {
-          "bookmaker": "pmu_fr",
-          "title": "PMU (FR)",
-          "selection_price": 1.51,
-          "opponent_price": 2.25,
-          "fair_probability": 0.598404255319149
-        },
-        {
-          "bookmaker": "unibet_nl",
-          "title": "Unibet (NL)",
-          "selection_price": 1.57,
-          "opponent_price": 2.38,
-          "fair_probability": 0.6025316455696202
-        },
-        {
-          "bookmaker": "unibet_se",
-          "title": "Unibet (SE)",
-          "selection_price": 1.57,
-          "opponent_price": 2.38,
-          "fair_probability": 0.6025316455696202
-        },
-        {
-          "bookmaker": "leovegas_se",
-          "title": "LeoVegas (SE)",
-          "selection_price": 1.57,
-          "opponent_price": 2.38,
-          "fair_probability": 0.6025316455696202
-        },
-        {
-          "bookmaker": "betfair_ex_eu",
-          "title": "Betfair",
-          "selection_price": 1.54,
-          "opponent_price": 2.18,
-          "fair_probability": 0.5860215053763441
-        }
-      ]
-    },
-    {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Kai Kamaka III vs. Luke Riley (Featherweight, Prelims)",
@@ -7014,7 +6907,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Paddy Pimblett vs. Benoît Saint Denis (Lightweight, Main Card)",
@@ -7026,11 +6919,11 @@
       "best_ask": 0.59,
       "best_ask_size": 20053.11,
       "spread": 0.010000000000000009,
-      "fair_probability": 0.5769230769230769,
-      "conservative_probability": 0.5619230769230769,
-      "gross_edge": -0.013076923076923097,
-      "net_edge": -0.02807692307692311,
-      "expected_roi": -0.04758800521512392,
+      "fair_probability": 0.5770171149144254,
+      "conservative_probability": 0.5620171149144254,
+      "gross_edge": -0.012982885085574547,
+      "net_edge": -0.02798288508557456,
+      "expected_roi": -0.04742861878910943,
       "bookmaker_count": 15,
       "match_score": 0.9908854166666666,
       "time_diff_hours": 5.833333333333333,
@@ -7128,7 +7021,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:38+00:00",
+      "observed_at_utc": "2026-07-10T10:39:32+00:00",
       "sport_name": "Tennis",
       "decision": "SKIP",
       "event_title": "Wimbledon ATP: Arthur Fery vs Alexander Zverev",
@@ -7138,7 +7031,7 @@
       "outcome_index": 1,
       "best_bid": 0.85,
       "best_ask": 0.86,
-      "best_ask_size": 6011.04,
+      "best_ask_size": 16411.3,
       "spread": 0.010000000000000009,
       "fair_probability": 0.8458923199060094,
       "conservative_probability": 0.8308923199060094,
@@ -7242,7 +7135,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Golden State Valkyries vs. Connecticut Sun",
@@ -7356,7 +7249,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Robert Whittaker vs. Nikita Krylov (Light Heavyweight, Prelims)",
@@ -7463,7 +7356,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Brandon Royval vs. Lone'er Kavanagh (Flyweight, Main Card)",
@@ -7473,7 +7366,7 @@
       "outcome_index": 1,
       "best_bid": 0.66,
       "best_ask": 0.67,
-      "best_ask_size": 2435.13,
+      "best_ask_size": 2475.8,
       "spread": 0.010000000000000009,
       "fair_probability": 0.6552567237163813,
       "conservative_probability": 0.6402567237163813,
@@ -7577,7 +7470,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Zachary Reese vs. Ryan Gandra (Middleweight, Early Prelims)",
@@ -7670,7 +7563,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "New York Liberty vs. Minnesota Lynx",
@@ -7678,10 +7571,10 @@
       "selection": "New York Liberty",
       "opponent": "Minnesota Lynx",
       "outcome_index": 0,
-      "best_bid": 0.4,
+      "best_bid": 0.39,
       "best_ask": 0.43,
-      "best_ask_size": 22.59,
-      "spread": 0.02999999999999997,
+      "best_ask_size": 14.5,
+      "spread": 0.03999999999999998,
       "fair_probability": 0.411764705882353,
       "conservative_probability": 0.39676470588235296,
       "gross_edge": -0.018235294117647016,
@@ -7777,7 +7670,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Cesar Almeida vs. Damian Pinas (Middleweight, Early Prelims)",
@@ -7877,7 +7770,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: King Green vs. Terrance McKinney (Lightweight, Main Card)",
@@ -7991,7 +7884,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Alden Coria vs. Stewart Nicoll (Flyweight, Prelims)",
@@ -8056,7 +7949,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC 329: Max Holloway vs. Conor McGregor (Welterweight, Main Card)",
@@ -8066,7 +7959,7 @@
       "outcome_index": 0,
       "best_bid": 0.67,
       "best_ask": 0.68,
-      "best_ask_size": 111488.65,
+      "best_ask_size": 111448.65,
       "spread": 0.010000000000000009,
       "fair_probability": 0.6599344607443629,
       "conservative_probability": 0.6449344607443629,
@@ -8093,9 +7986,9 @@
         {
           "bookmaker": "betfair_ex_eu",
           "title": "Betfair",
-          "selection_price": 1.49,
+          "selection_price": 1.48,
           "opponent_price": 3.0,
-          "fair_probability": 0.6681514476614699
+          "fair_probability": 0.6696428571428572
         },
         {
           "bookmaker": "betonlineag",
@@ -8170,7 +8063,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Dallas Wings vs. Toronto Tempo",
@@ -8284,7 +8177,114 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
+      "sport_name": "WNBA",
+      "decision": "SKIP",
+      "event_title": "New York Liberty vs. Minnesota Lynx",
+      "kickoff_utc": "2026-07-11T17:00:00+00:00",
+      "selection": "Minnesota Lynx",
+      "opponent": "New York Liberty",
+      "outcome_index": 1,
+      "best_bid": 0.57,
+      "best_ask": 0.61,
+      "best_ask_size": 263.0,
+      "spread": 0.040000000000000036,
+      "fair_probability": 0.588235294117647,
+      "conservative_probability": 0.573235294117647,
+      "gross_edge": -0.02176470588235302,
+      "net_edge": -0.03676470588235303,
+      "expected_roi": -0.06027000964320169,
+      "bookmaker_count": 11,
+      "match_score": 1.0,
+      "time_diff_hours": 0.0,
+      "odds_api_sport_key": "basketball_wnba",
+      "odds_api_event_id": "93c27f5318a98fdd2a9bfbc42269f134",
+      "reasons": "Netto-Edge zu klein",
+      "polymarket_event_id": "642974",
+      "polymarket_market_id": "2715022",
+      "polymarket_token_id": "54969542378328383279803068801271973898405428477850173639228000968451526941033",
+      "bookmaker_details": [
+        {
+          "bookmaker": "onexbet",
+          "title": "1xBet",
+          "selection_price": 1.62,
+          "opponent_price": 2.35,
+          "fair_probability": 0.5919395465994962
+        },
+        {
+          "bookmaker": "sport888",
+          "title": "888sport",
+          "selection_price": 1.61,
+          "opponent_price": 2.3,
+          "fair_probability": 0.588235294117647
+        },
+        {
+          "bookmaker": "nordicbet",
+          "title": "Nordic Bet",
+          "selection_price": 1.6,
+          "opponent_price": 2.25,
+          "fair_probability": 0.5844155844155844
+        },
+        {
+          "bookmaker": "betsson",
+          "title": "Betsson",
+          "selection_price": 1.6,
+          "opponent_price": 2.25,
+          "fair_probability": 0.5844155844155844
+        },
+        {
+          "bookmaker": "coolbet",
+          "title": "Coolbet",
+          "selection_price": 1.61,
+          "opponent_price": 2.28,
+          "fair_probability": 0.5861182519280206
+        },
+        {
+          "bookmaker": "gtbets",
+          "title": "GTbets",
+          "selection_price": 1.67,
+          "opponent_price": 2.3,
+          "fair_probability": 0.5793450881612091
+        },
+        {
+          "bookmaker": "pmu_fr",
+          "title": "PMU (FR)",
+          "selection_price": 1.51,
+          "opponent_price": 2.25,
+          "fair_probability": 0.598404255319149
+        },
+        {
+          "bookmaker": "unibet_nl",
+          "title": "Unibet (NL)",
+          "selection_price": 1.57,
+          "opponent_price": 2.38,
+          "fair_probability": 0.6025316455696202
+        },
+        {
+          "bookmaker": "unibet_se",
+          "title": "Unibet (SE)",
+          "selection_price": 1.57,
+          "opponent_price": 2.38,
+          "fair_probability": 0.6025316455696202
+        },
+        {
+          "bookmaker": "leovegas_se",
+          "title": "LeoVegas (SE)",
+          "selection_price": 1.57,
+          "opponent_price": 2.38,
+          "fair_probability": 0.6025316455696202
+        },
+        {
+          "bookmaker": "betfair_ex_eu",
+          "title": "Betfair",
+          "selection_price": 1.54,
+          "opponent_price": 2.18,
+          "fair_probability": 0.5860215053763441
+        }
+      ]
+    },
+    {
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "PortlandFire vs. Atlanta Dream",
@@ -8294,7 +8294,7 @@
       "outcome_index": 1,
       "best_bid": 0.82,
       "best_ask": 0.85,
-      "best_ask_size": 463.0,
+      "best_ask_size": 374.0,
       "spread": 0.030000000000000027,
       "fair_probability": 0.8270676691729323,
       "conservative_probability": 0.8120676691729323,
@@ -8391,7 +8391,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Jared Cannonier vs. Christian Leroy Duncan (Middleweight, Main Card)",
@@ -8456,7 +8456,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Chase Hooper vs. Mitch Ramirez (Lightweight, Main Card)",
@@ -8514,7 +8514,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:50+00:00",
+      "observed_at_utc": "2026-07-10T10:39:47+00:00",
       "sport_name": "WNBA",
       "decision": "SKIP",
       "event_title": "Phoenix Mercury vs. Las Vegas Aces",
@@ -8628,7 +8628,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Alden Coria vs. Stewart Nicoll (Flyweight, Prelims)",
@@ -8693,7 +8693,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Jean-Paul Lebosnoyani vs. Seokhyeon Ko (Welterweight, Prelims)",
@@ -8751,7 +8751,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Alberto Montes vs. Tommy McMillen (Featherweight, Main Card)",
@@ -8823,7 +8823,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Austin Bashi vs. Jose Miguel Delgado (Featherweight, Prelims)",
@@ -8881,7 +8881,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Austin Bashi vs. Jose Miguel Delgado (Featherweight, Prelims)",
@@ -8939,7 +8939,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Tabatha Ricci vs. Fatima Kline (Women's Strawweight, Main Card)",
@@ -8997,7 +8997,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Alberto Montes vs. Tommy McMillen (Featherweight, Main Card)",
@@ -9069,7 +9069,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Chase Hooper vs. Mitch Ramirez (Lightweight, Main Card)",
@@ -9127,7 +9127,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Jared Cannonier vs. Christian Leroy Duncan (Middleweight, Main Card)",
@@ -9192,7 +9192,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Tabatha Ricci vs. Fatima Kline (Women's Strawweight, Main Card)",
@@ -9250,7 +9250,7 @@
       ]
     },
     {
-      "observed_at_utc": "2026-07-10T10:37:58+00:00",
+      "observed_at_utc": "2026-07-10T10:39:58+00:00",
       "sport_name": "UFC",
       "decision": "SKIP",
       "event_title": "UFC Fight Night: Felipe Franco vs. Levi Rodrigues Jr. (Light Heavyweight, Prelims)",
