@@ -40,6 +40,7 @@ ODDS_SPORTS_URL = "https://api.the-odds-api.com/v4/sports"
 ODDS_ODDS_URL = "https://api.the-odds-api.com/v4/sports/{sport_key}/odds"
 POLYMARKET_SPORTS_URL = "https://gamma-api.polymarket.com/sports"
 GAMMA_EVENTS_URL = "https://gamma-api.polymarket.com/events"
+GAMMA_MARKET_BY_ID_URL = "https://gamma-api.polymarket.com/markets/{market_id}"
 
 PAGE_SIZE = 500
 REQUEST_PAUSE_SECONDS = 0.05
@@ -64,6 +65,8 @@ PAPER_BANKROLL_START = 1000.0
 PAPER_STAKE_FRACTION = 0.0025
 PAPER_MIN_STAKE = 2.50
 PAPER_MAX_STAKE = 2.50
+SETTLEMENT_WIN_PRICE = 0.99
+SETTLEMENT_LOSS_PRICE = 0.01
 
 TARGETS = [
     {
@@ -963,7 +966,7 @@ def update_paper_portfolio_from_buys(
     open_risk = sum(as_float(item.get("stake")) or 0.0 for item in open_positions)
     open_max_profit = sum(as_float(item.get("max_profit")) or 0.0 for item in open_positions)
     realized_pnl = as_float(portfolio.get("realized_pnl")) or 0.0
-    estimated_equity = cash + open_risk + realized_pnl
+    estimated_equity = cash + open_risk
 
     portfolio.update({
         "cash": round(cash, 4),
@@ -991,6 +994,248 @@ def update_paper_portfolio_from_buys(
     return portfolio, new_trades
 
 
+
+def fetch_polymarket_market_by_id(
+    session: requests.Session,
+    market_id_value: Any,
+) -> dict[str, Any]:
+    market_id_text = safe_text(market_id_value).strip()
+    if not market_id_text:
+        raise ValueError("Polymarket market id fehlt")
+
+    payload, _headers = request_json(
+        session,
+        GAMMA_MARKET_BY_ID_URL.format(market_id=market_id_text),
+    )
+
+    if not isinstance(payload, dict):
+        raise RuntimeError("Polymarket lieferte kein gültiges Marktobjekt")
+
+    return payload
+
+
+def market_resolution_for_position(
+    position: dict[str, Any],
+    market: dict[str, Any],
+) -> dict[str, Any]:
+    outcomes = [safe_text(item) for item in parse_json_list(market.get("outcomes"))]
+    prices = [as_float(item) for item in parse_json_list(market.get("outcomePrices"))]
+    token_ids = [safe_text(item) for item in parse_json_list(market.get("clobTokenIds"))]
+
+    closed = market.get("closed") is True
+    uma_status = safe_text(market.get("umaResolutionStatus")).strip().lower()
+    automatically_resolved = market.get("automaticallyResolved") is True
+
+    result: dict[str, Any] = {
+        "resolved": False,
+        "result": "OPEN",
+        "selected_outcome": position.get("selection"),
+        "selected_price": None,
+        "winner_outcome": None,
+        "market_closed": closed,
+        "uma_resolution_status": uma_status or None,
+        "automatically_resolved": automatically_resolved,
+        "reason": "",
+    }
+
+    if not closed:
+        result["reason"] = "Markt noch nicht geschlossen"
+        return result
+
+    if not outcomes or len(outcomes) != len(prices):
+        result["reason"] = "Outcomes oder Endpreise fehlen"
+        return result
+
+    if any(price is None for price in prices):
+        result["reason"] = "Ungültige Endpreise"
+        return result
+
+    numeric_prices = [float(price) for price in prices if price is not None]
+    winner_indexes = [
+        index
+        for index, price in enumerate(numeric_prices)
+        if price >= SETTLEMENT_WIN_PRICE
+    ]
+    loser_indexes = [
+        index
+        for index, price in enumerate(numeric_prices)
+        if price <= SETTLEMENT_LOSS_PRICE
+    ]
+
+    # Never settle from a merely closed market unless the final prices are
+    # unmistakably 1/0. This avoids premature or ambiguous settlement.
+    if len(winner_indexes) != 1 or len(loser_indexes) < len(numeric_prices) - 1:
+        result["reason"] = "Noch keine eindeutigen 1/0-Endpreise"
+        return result
+
+    selected_index: int | None = None
+    selected_token = safe_text(position.get("polymarket_token_id")).strip()
+
+    if selected_token and selected_token in token_ids:
+        selected_index = token_ids.index(selected_token)
+
+    if selected_index is None:
+        selection = safe_text(position.get("selection"))
+        scores = [similarity(selection, outcome) for outcome in outcomes]
+        if scores and max(scores) >= 0.80:
+            selected_index = scores.index(max(scores))
+
+    if selected_index is None or selected_index >= len(numeric_prices):
+        result["reason"] = "Gekaufter Outcome konnte nicht zugeordnet werden"
+        return result
+
+    selected_price = numeric_prices[selected_index]
+    winner_index = winner_indexes[0]
+
+    result.update({
+        "resolved": True,
+        "result": "WIN" if selected_index == winner_index else "LOSS",
+        "selected_outcome": outcomes[selected_index],
+        "selected_price": selected_price,
+        "winner_outcome": outcomes[winner_index],
+        "reason": "Eindeutiger geschlossener Markt mit 1/0-Endpreisen",
+    })
+    return result
+
+
+def recalculate_paper_portfolio(portfolio: dict[str, Any]) -> dict[str, Any]:
+    open_positions = [
+        item for item in portfolio.get("open_positions", [])
+        if isinstance(item, dict)
+    ]
+    closed_positions = [
+        item for item in portfolio.get("closed_positions", [])
+        if isinstance(item, dict)
+    ]
+
+    cash = as_float(portfolio.get("cash"))
+    if cash is None:
+        cash = PAPER_BANKROLL_START
+
+    realized_pnl = sum(
+        as_float(item.get("realized_pnl")) or 0.0
+        for item in closed_positions
+    )
+    open_risk = sum(
+        as_float(item.get("stake")) or 0.0
+        for item in open_positions
+    )
+    open_max_profit = sum(
+        as_float(item.get("max_profit")) or 0.0
+        for item in open_positions
+    )
+
+    portfolio.update({
+        "cash": round(cash, 4),
+        "realized_pnl": round(realized_pnl, 4),
+        "open_positions": open_positions,
+        "closed_positions": closed_positions,
+        "open_position_count": len(open_positions),
+        "closed_position_count": len(closed_positions),
+        "open_risk": round(open_risk, 4),
+        "open_max_profit": round(open_max_profit, 4),
+        # Open positions are conservatively valued at their original stake.
+        "estimated_equity": round(cash + open_risk, 4),
+        "last_updated_utc": now_utc(),
+    })
+    return portfolio
+
+
+def settle_open_paper_positions(
+    session: requests.Session,
+    portfolio: dict[str, Any],
+) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]]]:
+    open_positions = [
+        item for item in portfolio.get("open_positions", [])
+        if isinstance(item, dict)
+    ]
+    closed_positions = [
+        item for item in portfolio.get("closed_positions", [])
+        if isinstance(item, dict)
+    ]
+
+    cash = as_float(portfolio.get("cash"))
+    if cash is None:
+        cash = PAPER_BANKROLL_START
+
+    still_open: list[dict[str, Any]] = []
+    new_settlements: list[dict[str, Any]] = []
+    settlement_errors: list[dict[str, Any]] = []
+
+    for position in open_positions:
+        market_id_value = position.get("polymarket_market_id")
+
+        try:
+            market = fetch_polymarket_market_by_id(session, market_id_value)
+            resolution = market_resolution_for_position(position, market)
+        except Exception as exc:
+            checked_position = dict(position)
+            checked_position["last_settlement_check_utc"] = now_utc()
+            checked_position["settlement_check_error"] = safe_text(exc)
+            still_open.append(checked_position)
+            settlement_errors.append({
+                "event_title": position.get("event_title"),
+                "selection": position.get("selection"),
+                "market_id": market_id_value,
+                "error": safe_text(exc),
+            })
+            continue
+
+        checked_position = dict(position)
+        checked_position["last_settlement_check_utc"] = now_utc()
+        checked_position["settlement_check"] = resolution
+
+        if not resolution.get("resolved"):
+            still_open.append(checked_position)
+            continue
+
+        shares = as_float(position.get("shares")) or 0.0
+        stake = as_float(position.get("stake")) or 0.0
+        result = safe_text(resolution.get("result"))
+
+        payout = shares if result == "WIN" else 0.0
+        pnl = payout - stake
+        cash += payout
+
+        closed_position = {
+            **checked_position,
+            "status": result,
+            "closed_at_utc": now_utc(),
+            "settlement_price": resolution.get("selected_price"),
+            "winner_outcome": resolution.get("winner_outcome"),
+            "payout": round(payout, 8),
+            "realized_pnl": round(pnl, 8),
+            "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices",
+        }
+
+        closed_positions.append(closed_position)
+
+        settlement_trade = {
+            "trade_type": "PAPER_SETTLE",
+            **closed_position,
+        }
+        new_settlements.append(settlement_trade)
+
+    portfolio.update({
+        "cash": cash,
+        "open_positions": still_open,
+        "closed_positions": closed_positions,
+    })
+    portfolio = recalculate_paper_portfolio(portfolio)
+
+    PAPER_PORTFOLIO_JSON.write_text(
+        json.dumps(portfolio, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+    if new_settlements:
+        with PAPER_TRADES_JSONL.open("a", encoding="utf-8") as file:
+            for settlement in new_settlements:
+                file.write(json.dumps(settlement, ensure_ascii=False) + "\n")
+
+    return portfolio, new_settlements, settlement_errors
+
+
 def fmt_money(value: Any) -> str:
     number = as_float(value)
     if number is None:
@@ -1011,6 +1256,7 @@ def update_history(report: dict[str, Any]) -> None:
         "paper_buys": report.get("paper_buys", []),
         "best_signals": report.get("best_signals", [])[:8],
         "portfolio": report.get("portfolio", {}),
+        "new_settlements": report.get("new_settlements", []),
     }, ensure_ascii=False))
 
     old_lines = old_lines[-HISTORY_MAX_LINES:]
@@ -1053,6 +1299,8 @@ def build_html(report: dict[str, Any]) -> str:
     history = read_history_summary(16)
     portfolio = report.get("portfolio") if isinstance(report.get("portfolio"), dict) else {}
     open_positions = portfolio.get("open_positions") if isinstance(portfolio.get("open_positions"), list) else []
+    closed_positions = portfolio.get("closed_positions") if isinstance(portfolio.get("closed_positions"), list) else []
+    new_settlements = report.get("new_settlements") if isinstance(report.get("new_settlements"), list) else []
     new_trades = report.get("new_paper_trades") if isinstance(report.get("new_paper_trades"), list) else []
 
     target_cards = ""
@@ -1069,6 +1317,55 @@ def build_html(report: dict[str, Any]) -> str:
         </div>
         """
 
+
+
+    settlement_cards = ""
+    for item in new_settlements[:8]:
+        result = safe_text(item.get("status"))
+        badge_class = "win" if result == "WIN" else "loss"
+        settlement_cards += f"""
+        <div class="signal">
+          <div class="row">
+            <span class="badge {badge_class}">{esc(result)}</span>
+            <span class="muted">{esc(item.get('sport_name'))}</span>
+          </div>
+          <h3>{esc(item.get('event_title'))}</h3>
+          <div class="pick">{esc(item.get('selection'))}</div>
+          <div class="mini-grid">
+            <div><span>Entry</span><b>{esc(pct(item.get('entry_price')))}</b></div>
+            <div><span>Payout</span><b>{esc(fmt_money(item.get('payout')))}</b></div>
+            <div><span>PnL</span><b>{esc(fmt_money(item.get('realized_pnl')))}</b></div>
+            <div><span>Gewinner</span><b>{esc(item.get('winner_outcome'))}</b></div>
+          </div>
+        </div>
+        """
+
+    if not settlement_cards:
+        settlement_cards = '<div class="empty">In diesem Lauf wurde keine Position abgerechnet.</div>'
+
+    closed_cards = ""
+    for item in reversed(closed_positions[-10:]):
+        result = safe_text(item.get("status"))
+        badge_class = "win" if result == "WIN" else "loss"
+        closed_cards += f"""
+        <div class="signal">
+          <div class="row">
+            <span class="badge {badge_class}">{esc(result)}</span>
+            <span class="muted">{esc(item.get('sport_name'))}</span>
+          </div>
+          <h3>{esc(item.get('event_title'))}</h3>
+          <div class="pick">{esc(item.get('selection'))}</div>
+          <div class="mini-grid">
+            <div><span>Stake</span><b>{esc(fmt_money(item.get('stake')))}</b></div>
+            <div><span>Payout</span><b>{esc(fmt_money(item.get('payout')))}</b></div>
+            <div><span>PnL</span><b>{esc(fmt_money(item.get('realized_pnl')))}</b></div>
+            <div><span>Geschlossen</span><b>{esc(item.get('closed_at_utc'))}</b></div>
+          </div>
+        </div>
+        """
+
+    if not closed_cards:
+        closed_cards = '<div class="empty">Noch keine abgeschlossenen Paper-Positionen.</div>'
 
     position_cards = ""
     for pos in open_positions[:10]:
@@ -1217,6 +1514,8 @@ def build_html(report: dict[str, Any]) -> str:
     .row {{ display:flex; justify-content:space-between; gap:8px; align-items:center; }}
     .badge {{ padding:6px 9px; border-radius:999px; font-size:12px; font-weight:900; }}
     .badge.buy {{ color:var(--warn); background:rgba(255,204,51,.17); }}
+    .badge.win {{ color:var(--good); background:rgba(55,214,122,.16); }}
+    .badge.loss {{ color:var(--bad); background:rgba(255,93,115,.16); }}
     .badge.skip {{ color:var(--muted); background:rgba(255,255,255,.08); }}
     .muted, .pick, p {{ color:var(--muted); }}
     .pick {{ margin-top:4px; }}
@@ -1266,9 +1565,19 @@ def build_html(report: dict[str, Any]) -> str:
       <div class="big-grid">
         <div class="metric"><span>Cash</span><b>{esc(fmt_money(portfolio.get('cash')))}</b></div>
         <div class="metric"><span>Offen</span><b>{esc(portfolio.get('open_position_count') or 0)}</b></div>
-        <div class="metric"><span>Risiko</span><b>{esc(fmt_money(portfolio.get('open_risk')))}</b></div>
+        <div class="metric"><span>Realisiert</span><b>{esc(fmt_money(portfolio.get('realized_pnl')))}</b></div>
         <div class="metric"><span>Equity</span><b>{esc(fmt_money(portfolio.get('estimated_equity')))}</b></div>
       </div>
+    </section>
+
+    <section>
+      <h2>Neue Abrechnungen</h2>
+      <div class="signals">{settlement_cards}</div>
+    </section>
+
+    <section>
+      <h2>Geschlossene Paper-Positionen</h2>
+      <div class="signals">{closed_cards}</div>
     </section>
 
     <section>
@@ -2048,8 +2357,13 @@ def run() -> dict[str, Any]:
 
     paper_buys = [item for item in all_signals if item.get("decision") == "PAPER_BUY"]
 
-    portfolio, new_paper_trades = update_paper_portfolio_from_buys(
+    portfolio, new_settlements, settlement_errors = settle_open_paper_positions(
+        session,
         load_paper_portfolio(),
+    )
+
+    portfolio, new_paper_trades = update_paper_portfolio_from_buys(
+        portfolio,
         paper_buys,
     )
 
@@ -2062,6 +2376,8 @@ def run() -> dict[str, Any]:
         "per_target": per_target,
         "paper_buys": paper_buys,
         "new_paper_trades": new_paper_trades,
+        "new_settlements": new_settlements,
+        "settlement_errors": settlement_errors,
         "portfolio": portfolio,
         "best_signals": all_signals[:30],
         "signals": all_signals,
@@ -2088,7 +2404,9 @@ def run() -> dict[str, Any]:
         f"SIGNALS={report['signal_count']}\n"
         f"QUOTA={report.get('quota_remaining') or '?'}\n"
         f"OPEN_POSITIONS={portfolio.get('open_position_count', 0)}\n"
-        f"OPEN_RISK={portfolio.get('open_risk', 0)}\n",
+        f"OPEN_RISK={portfolio.get('open_risk', 0)}\n"
+        f"CLOSED_POSITIONS={portfolio.get('closed_position_count', 0)}\n"
+        f"REALIZED_PNL={portfolio.get('realized_pnl', 0)}\n",
         encoding="utf-8",
     )
 
@@ -2097,9 +2415,9 @@ def run() -> dict[str, Any]:
 
 def main() -> int:
     print("=" * 78)
-    print("SCHRITT 28B: CLOUD PAPER-PORTFOLIO HOTFIX")
+    print("SCHRITT 29: AUTOMATISCHE PAPER-ABRECHNUNG")
     print("=" * 78)
-    print("Cloud-Scanner für Fußball, Tennis, WNBA und UFC mit Paper-Portfolio.")
+    print("Cloud-Scanner mit Paper-Portfolio und automatischer WIN/LOSS-Abrechnung.")
     print("Nur Paper-Trading. Keine echten Orders.")
     print("=" * 78)
 
