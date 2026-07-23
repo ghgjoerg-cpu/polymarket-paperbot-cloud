@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-07-22T13:12:51+00:00",
+      "last_settlement_check_utc": "2026-07-23T13:15:23+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -47,5 +47,5 @@
   "open_risk": 2.5,
   "open_max_profit": 2.1296,
   "estimated_equity": 1000.0,
-  "last_updated_utc": "2026-07-22T13:12:51+00:00"
+  "last_updated_utc": "2026-07-23T13:15:23+00:00"
 }
