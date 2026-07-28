@@ -1,6 +1,6 @@
 {
   "bankroll_start": 1000.0,
-  "cash": 990.0,
+  "cash": 987.5,
   "realized_pnl": 0.0,
   "open_positions": [
     {
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-07-27T16:37:57+00:00",
+      "last_settlement_check_utc": "2026-07-28T15:57:01+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-07-27T16:37:57+00:00",
+      "last_settlement_check_utc": "2026-07-28T15:57:01+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "80980761051640429851165872591155255422567236162137518645867907041032019564713",
       "odds_api_sport_key": "soccer_germany_bundesliga2",
       "odds_api_event_id": "2c3898d55ac2676ec57fcd3c3fcca66d",
-      "last_settlement_check_utc": "2026-07-27T16:37:57+00:00",
+      "last_settlement_check_utc": "2026-07-28T15:57:01+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "27878218534030454926800185797155823033401272735564834532788086497629951502033",
       "odds_api_sport_key": "soccer_germany_bundesliga2",
       "odds_api_event_id": "2c3898d55ac2676ec57fcd3c3fcca66d",
-      "last_settlement_check_utc": "2026-07-27T16:37:57+00:00",
+      "last_settlement_check_utc": "2026-07-28T15:57:01+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -150,13 +150,38 @@
         "automatically_resolved": false,
         "reason": "Markt noch nicht geschlossen"
       }
+    },
+    {
+      "position_key": "52527088390104725641266465874861091252986285964875629930238751064483255897248",
+      "status": "OPEN",
+      "opened_at_utc": "2026-07-28T15:57:01+00:00",
+      "sport_name": "WNBA",
+      "event_title": "Minnesota Lynx vs. Toronto Tempo",
+      "kickoff_utc": "2026-07-30T23:00:00+00:00",
+      "selection": "Minnesota Lynx",
+      "opponent": "Toronto Tempo",
+      "entry_price": 0.79,
+      "stake": 2.5,
+      "shares": 3.1645569620253164,
+      "max_payout": 3.1645569620253164,
+      "max_profit": 0.6645569620253164,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.892678034102307,
+      "net_edge_at_entry": 0.0876780341023069,
+      "spread_at_entry": 0.030000000000000027,
+      "bookmaker_count": 15,
+      "polymarket_event_id": "712418",
+      "polymarket_market_id": "2955422",
+      "polymarket_token_id": "52527088390104725641266465874861091252986285964875629930238751064483255897248",
+      "odds_api_sport_key": "basketball_wnba",
+      "odds_api_event_id": "786c1161bd8d7bbab01efa2e850df8bb"
     }
   ],
   "closed_positions": [],
-  "open_position_count": 4,
+  "open_position_count": 5,
   "closed_position_count": 0,
-  "open_risk": 10.0,
-  "open_max_profit": 13.7793,
+  "open_risk": 12.5,
+  "open_max_profit": 14.4439,
   "estimated_equity": 1000.0,
-  "last_updated_utc": "2026-07-27T16:37:57+00:00"
+  "last_updated_utc": "2026-07-28T15:57:01+00:00"
 }
