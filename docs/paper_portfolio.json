@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-08-05T10:45:40+00:00",
+      "last_settlement_check_utc": "2026-08-06T10:48:25+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-08-05T10:45:40+00:00",
+      "last_settlement_check_utc": "2026-08-06T10:48:25+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "80980761051640429851165872591155255422567236162137518645867907041032019564713",
       "odds_api_sport_key": "soccer_germany_bundesliga2",
       "odds_api_event_id": "2c3898d55ac2676ec57fcd3c3fcca66d",
-      "last_settlement_check_utc": "2026-08-05T10:45:41+00:00",
+      "last_settlement_check_utc": "2026-08-06T10:48:25+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "27878218534030454926800185797155823033401272735564834532788086497629951502033",
       "odds_api_sport_key": "soccer_germany_bundesliga2",
       "odds_api_event_id": "2c3898d55ac2676ec57fcd3c3fcca66d",
-      "last_settlement_check_utc": "2026-08-05T10:45:41+00:00",
+      "last_settlement_check_utc": "2026-08-06T10:48:25+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -202,5 +202,5 @@
   "open_risk": 10.0,
   "open_max_profit": 13.7793,
   "estimated_equity": 1000.6646,
-  "last_updated_utc": "2026-08-05T10:45:41+00:00"
+  "last_updated_utc": "2026-08-06T10:48:25+00:00"
 }
