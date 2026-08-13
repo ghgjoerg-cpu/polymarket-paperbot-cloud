@@ -1,6 +1,6 @@
 {
   "bankroll_start": 1000.0,
-  "cash": 978.1646,
+  "cash": 975.6646,
   "realized_pnl": -4.3354,
   "open_positions": [
     {
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-08-12T09:20:51+00:00",
+      "last_settlement_check_utc": "2026-08-13T09:20:57+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-08-12T09:20:51+00:00",
+      "last_settlement_check_utc": "2026-08-13T09:20:57+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-08-12T09:20:51+00:00",
+      "last_settlement_check_utc": "2026-08-13T09:20:57+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "54936520357202371944634848793749559002438249689167346069199899283984244505774",
       "odds_api_sport_key": "soccer_spain_la_liga",
       "odds_api_event_id": "382e164289b17ff11f658279d77c1c1d",
-      "last_settlement_check_utc": "2026-08-12T09:20:52+00:00",
+      "last_settlement_check_utc": "2026-08-13T09:20:57+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "112927512592564005412767089406651834250248452546961790721310062580574241601960",
       "odds_api_sport_key": "basketball_wnba",
       "odds_api_event_id": "d2ac2c666293e102417b78a5093d2aec",
-      "last_settlement_check_utc": "2026-08-12T09:20:52+00:00",
+      "last_settlement_check_utc": "2026-08-13T09:20:58+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -211,7 +211,19 @@
       "polymarket_market_id": "3535881",
       "polymarket_token_id": "59356617327899090488968224066736045003290704960634839247793228756892496205052",
       "odds_api_sport_key": "soccer_spain_la_liga",
-      "odds_api_event_id": "86eee7d1c8e3dfb4e52cb45c875d4c4e"
+      "odds_api_event_id": "86eee7d1c8e3dfb4e52cb45c875d4c4e",
+      "last_settlement_check_utc": "2026-08-13T09:20:58+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Valencia CF",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
     },
     {
       "position_key": "100171906935497542469815380966860787185682857061538948995700311736232850943519",
@@ -236,7 +248,44 @@
       "polymarket_market_id": "3535882",
       "polymarket_token_id": "100171906935497542469815380966860787185682857061538948995700311736232850943519",
       "odds_api_sport_key": "soccer_spain_la_liga",
-      "odds_api_event_id": "86eee7d1c8e3dfb4e52cb45c875d4c4e"
+      "odds_api_event_id": "86eee7d1c8e3dfb4e52cb45c875d4c4e",
+      "last_settlement_check_utc": "2026-08-13T09:20:58+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Draw",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
+    },
+    {
+      "position_key": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
+      "status": "OPEN",
+      "opened_at_utc": "2026-08-13T09:20:58+00:00",
+      "sport_name": "Tennis",
+      "event_title": "Cincinnati Open: Maria Timofeeva vs Katerina Siniakova",
+      "kickoff_utc": "2026-08-14T14:00:00+00:00",
+      "selection": "Katerina Siniakova",
+      "opponent": "Maria Timofeeva",
+      "entry_price": 0.51,
+      "stake": 2.5,
+      "shares": 4.901960784313726,
+      "max_payout": 4.901960784313726,
+      "max_profit": 2.401960784313726,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.6375000000000001,
+      "net_edge_at_entry": 0.11250000000000004,
+      "spread_at_entry": 0.010000000000000009,
+      "bookmaker_count": 9,
+      "polymarket_event_id": "836895",
+      "polymarket_market_id": "3533506",
+      "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
+      "odds_api_sport_key": "tennis_wta_cincinnati_open",
+      "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8"
     }
   ],
   "closed_positions": [
@@ -370,10 +419,10 @@
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 7,
+  "open_position_count": 8,
   "closed_position_count": 3,
-  "open_risk": 17.5,
-  "open_max_profit": 23.9802,
+  "open_risk": 20.0,
+  "open_max_profit": 26.3821,
   "estimated_equity": 995.6646,
-  "last_updated_utc": "2026-08-12T09:20:52+00:00"
+  "last_updated_utc": "2026-08-13T09:20:58+00:00"
 }
