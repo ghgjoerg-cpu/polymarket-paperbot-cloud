@@ -1,7 +1,7 @@
 {
   "bankroll_start": 1000.0,
-  "cash": 966.7878,
-  "realized_pnl": -10.7123,
+  "cash": 970.26,
+  "realized_pnl": -9.74,
   "open_positions": [
     {
       "position_key": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-08-27T19:02:29+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:26+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-08-27T19:02:29+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:26+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-08-27T19:02:29+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:26+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-08-27T19:02:30+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:26+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -149,43 +149,6 @@
         "uma_resolution_status": "resolved",
         "automatically_resolved": true,
         "reason": "Noch keine eindeutigen 1/0-Endpreise"
-      }
-    },
-    {
-      "position_key": "37378293575639948939383680576790144901733747479916956906009630524575348484336",
-      "status": "OPEN",
-      "opened_at_utc": "2026-08-14T09:15:46+00:00",
-      "sport_name": "Fußball",
-      "event_title": "FC Barcelona vs. Athletic Club",
-      "kickoff_utc": "2026-08-27T19:00:00+00:00",
-      "selection": "FC Barcelona",
-      "opponent": "Athletic Club",
-      "entry_price": 0.72,
-      "stake": 2.5,
-      "shares": 3.4722222222222223,
-      "max_payout": 3.4722222222222223,
-      "max_profit": 0.9722222222222223,
-      "max_loss": 2.5,
-      "fair_probability_at_entry": 0.7854938271604938,
-      "net_edge_at_entry": 0.050493827160493776,
-      "spread_at_entry": 0.039999999999999925,
-      "bookmaker_count": 15,
-      "polymarket_event_id": "847257",
-      "polymarket_market_id": "3578043",
-      "polymarket_token_id": "37378293575639948939383680576790144901733747479916956906009630524575348484336",
-      "odds_api_sport_key": "soccer_spain_la_liga",
-      "odds_api_event_id": "4e67f40bc51c915154f04559a7ab692c",
-      "last_settlement_check_utc": "2026-08-27T19:02:30+00:00",
-      "settlement_check": {
-        "resolved": false,
-        "result": "OPEN",
-        "selected_outcome": "FC Barcelona",
-        "selected_price": null,
-        "winner_outcome": null,
-        "market_closed": false,
-        "uma_resolution_status": null,
-        "automatically_resolved": false,
-        "reason": "Markt noch nicht geschlossen"
       }
     },
     {
@@ -212,7 +175,7 @@
       "polymarket_token_id": "8608092950006455662423366496843844587013334087385489851019342071390936769076",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "8f751e96142db860ba66bbea713baf50",
-      "last_settlement_check_utc": "2026-08-27T19:02:30+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:26+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -249,7 +212,7 @@
       "polymarket_token_id": "22362220637602668654809433092188328015626925441565180062932223113611058179502",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "8f751e96142db860ba66bbea713baf50",
-      "last_settlement_check_utc": "2026-08-27T19:02:30+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:27+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -286,7 +249,7 @@
       "polymarket_token_id": "89987438275800490253644049803519421014246079685963440379193646937260636183942",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "bcba4bd1f336226972bd9c4b59d0d77e",
-      "last_settlement_check_utc": "2026-08-27T19:02:30+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:27+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -323,7 +286,7 @@
       "polymarket_token_id": "2516546565678698475409538025813727239475861168351128502416545812899626309015",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "bcba4bd1f336226972bd9c4b59d0d77e",
-      "last_settlement_check_utc": "2026-08-27T19:02:30+00:00",
+      "last_settlement_check_utc": "2026-08-28T20:11:27+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -638,12 +601,55 @@
       "payout": 0.0,
       "realized_pnl": -2.5,
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
+    },
+    {
+      "position_key": "37378293575639948939383680576790144901733747479916956906009630524575348484336",
+      "status": "WIN",
+      "opened_at_utc": "2026-08-14T09:15:46+00:00",
+      "sport_name": "Fußball",
+      "event_title": "FC Barcelona vs. Athletic Club",
+      "kickoff_utc": "2026-08-27T19:00:00+00:00",
+      "selection": "FC Barcelona",
+      "opponent": "Athletic Club",
+      "entry_price": 0.72,
+      "stake": 2.5,
+      "shares": 3.4722222222222223,
+      "max_payout": 3.4722222222222223,
+      "max_profit": 0.9722222222222223,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.7854938271604938,
+      "net_edge_at_entry": 0.050493827160493776,
+      "spread_at_entry": 0.039999999999999925,
+      "bookmaker_count": 15,
+      "polymarket_event_id": "847257",
+      "polymarket_market_id": "3578043",
+      "polymarket_token_id": "37378293575639948939383680576790144901733747479916956906009630524575348484336",
+      "odds_api_sport_key": "soccer_spain_la_liga",
+      "odds_api_event_id": "4e67f40bc51c915154f04559a7ab692c",
+      "last_settlement_check_utc": "2026-08-28T20:11:26+00:00",
+      "settlement_check": {
+        "resolved": true,
+        "result": "WIN",
+        "selected_outcome": "Yes",
+        "selected_price": 1.0,
+        "winner_outcome": "Yes",
+        "market_closed": true,
+        "uma_resolution_status": "resolved",
+        "automatically_resolved": true,
+        "reason": "Eindeutiger geschlossener Markt mit 1/0-Endpreisen"
+      },
+      "closed_at_utc": "2026-08-28T20:11:26+00:00",
+      "settlement_price": 1.0,
+      "winner_outcome": "Yes",
+      "payout": 3.47222222,
+      "realized_pnl": 0.97222222,
+      "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 9,
-  "closed_position_count": 7,
-  "open_risk": 22.5,
-  "open_max_profit": 28.5291,
-  "estimated_equity": 989.2878,
-  "last_updated_utc": "2026-08-27T19:02:30+00:00"
+  "open_position_count": 8,
+  "closed_position_count": 8,
+  "open_risk": 20.0,
+  "open_max_profit": 27.5569,
+  "estimated_equity": 990.26,
+  "last_updated_utc": "2026-08-28T20:11:27+00:00"
 }
