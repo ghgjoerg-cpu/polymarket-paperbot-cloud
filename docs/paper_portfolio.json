@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-09-02T12:44:57+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:57+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-09-02T12:44:57+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:58+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-09-02T12:44:58+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:58+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-09-02T12:44:58+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:58+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "8608092950006455662423366496843844587013334087385489851019342071390936769076",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "8f751e96142db860ba66bbea713baf50",
-      "last_settlement_check_utc": "2026-09-02T12:44:58+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:58+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -212,7 +212,7 @@
       "polymarket_token_id": "22362220637602668654809433092188328015626925441565180062932223113611058179502",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "8f751e96142db860ba66bbea713baf50",
-      "last_settlement_check_utc": "2026-09-02T12:44:58+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:58+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -249,7 +249,7 @@
       "polymarket_token_id": "89987438275800490253644049803519421014246079685963440379193646937260636183942",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "bcba4bd1f336226972bd9c4b59d0d77e",
-      "last_settlement_check_utc": "2026-09-02T12:44:58+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:59+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -286,7 +286,7 @@
       "polymarket_token_id": "2516546565678698475409538025813727239475861168351128502416545812899626309015",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "bcba4bd1f336226972bd9c4b59d0d77e",
-      "last_settlement_check_utc": "2026-09-02T12:44:59+00:00",
+      "last_settlement_check_utc": "2026-09-03T12:47:59+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -322,7 +322,19 @@
       "polymarket_market_id": "3985535",
       "polymarket_token_id": "97947684462559840069849867533102187681155376517786068441174854169587111723645",
       "odds_api_sport_key": "mma_mixed_martial_arts",
-      "odds_api_event_id": "1c075185d91e84c1317a9f6bdad39e6b"
+      "odds_api_event_id": "1c075185d91e84c1317a9f6bdad39e6b",
+      "last_settlement_check_utc": "2026-09-03T12:47:59+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Manon Fiorot",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
     }
   ],
   "closed_positions": [
@@ -676,5 +688,5 @@
   "open_risk": 22.5,
   "open_max_profit": 29.1553,
   "estimated_equity": 990.26,
-  "last_updated_utc": "2026-09-02T12:44:59+00:00"
+  "last_updated_utc": "2026-09-03T12:47:59+00:00"
 }
