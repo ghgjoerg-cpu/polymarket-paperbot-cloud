@@ -1,7 +1,7 @@
 {
   "bankroll_start": 1000.0,
   "cash": 974.5168,
-  "realized_pnl": -12.9833,
+  "realized_pnl": -15.4833,
   "open_positions": [
     {
       "position_key": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-09-12T12:08:00+00:00",
+      "last_settlement_check_utc": "2026-09-13T13:18:17+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-09-12T12:08:00+00:00",
+      "last_settlement_check_utc": "2026-09-13T13:18:17+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-09-12T12:08:00+00:00",
+      "last_settlement_check_utc": "2026-09-13T13:18:17+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-09-12T12:08:00+00:00",
+      "last_settlement_check_utc": "2026-09-13T13:18:17+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -149,43 +149,6 @@
         "uma_resolution_status": "resolved",
         "automatically_resolved": true,
         "reason": "Noch keine eindeutigen 1/0-Endpreise"
-      }
-    },
-    {
-      "position_key": "97947684462559840069849867533102187681155376517786068441174854169587111723645",
-      "status": "OPEN",
-      "opened_at_utc": "2026-09-02T12:44:59+00:00",
-      "sport_name": "UFC",
-      "event_title": "Noche UFC: Alexa Grasso vs. Manon Fiorot (Women's Flyweight, Main Card)",
-      "kickoff_utc": "2026-09-12T18:00:00+00:00",
-      "selection": "Manon Fiorot",
-      "opponent": "Alexa Grasso",
-      "entry_price": 0.61,
-      "stake": 2.5,
-      "shares": 4.098360655737705,
-      "max_payout": 4.098360655737705,
-      "max_profit": 1.5983606557377046,
-      "max_loss": 2.5,
-      "fair_probability_at_entry": 0.656934306569343,
-      "net_edge_at_entry": 0.03193430656934304,
-      "spread_at_entry": 0.07999999999999996,
-      "bookmaker_count": 5,
-      "polymarket_event_id": "933062",
-      "polymarket_market_id": "3985535",
-      "polymarket_token_id": "97947684462559840069849867533102187681155376517786068441174854169587111723645",
-      "odds_api_sport_key": "mma_mixed_martial_arts",
-      "odds_api_event_id": "1c075185d91e84c1317a9f6bdad39e6b",
-      "last_settlement_check_utc": "2026-09-12T12:08:00+00:00",
-      "settlement_check": {
-        "resolved": false,
-        "result": "OPEN",
-        "selected_outcome": "Manon Fiorot",
-        "selected_price": null,
-        "winner_outcome": null,
-        "market_closed": false,
-        "uma_resolution_status": null,
-        "automatically_resolved": false,
-        "reason": "Markt noch nicht geschlossen"
       }
     }
   ],
@@ -705,12 +668,55 @@
       "payout": 0.0,
       "realized_pnl": -2.5,
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
+    },
+    {
+      "position_key": "97947684462559840069849867533102187681155376517786068441174854169587111723645",
+      "status": "LOSS",
+      "opened_at_utc": "2026-09-02T12:44:59+00:00",
+      "sport_name": "UFC",
+      "event_title": "Noche UFC: Alexa Grasso vs. Manon Fiorot (Women's Flyweight, Main Card)",
+      "kickoff_utc": "2026-09-12T18:00:00+00:00",
+      "selection": "Manon Fiorot",
+      "opponent": "Alexa Grasso",
+      "entry_price": 0.61,
+      "stake": 2.5,
+      "shares": 4.098360655737705,
+      "max_payout": 4.098360655737705,
+      "max_profit": 1.5983606557377046,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.656934306569343,
+      "net_edge_at_entry": 0.03193430656934304,
+      "spread_at_entry": 0.07999999999999996,
+      "bookmaker_count": 5,
+      "polymarket_event_id": "933062",
+      "polymarket_market_id": "3985535",
+      "polymarket_token_id": "97947684462559840069849867533102187681155376517786068441174854169587111723645",
+      "odds_api_sport_key": "mma_mixed_martial_arts",
+      "odds_api_event_id": "1c075185d91e84c1317a9f6bdad39e6b",
+      "last_settlement_check_utc": "2026-09-13T13:18:18+00:00",
+      "settlement_check": {
+        "resolved": true,
+        "result": "LOSS",
+        "selected_outcome": "Manon Fiorot",
+        "selected_price": 0.0,
+        "winner_outcome": "Alexa Grasso",
+        "market_closed": true,
+        "uma_resolution_status": "resolved",
+        "automatically_resolved": true,
+        "reason": "Eindeutiger geschlossener Markt mit 1/0-Endpreisen"
+      },
+      "closed_at_utc": "2026-09-13T13:18:18+00:00",
+      "settlement_price": 0.0,
+      "winner_outcome": "Alexa Grasso",
+      "payout": 0.0,
+      "realized_pnl": -2.5,
+      "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 5,
-  "closed_position_count": 12,
-  "open_risk": 12.5,
-  "open_max_profit": 10.9339,
-  "estimated_equity": 987.0168,
-  "last_updated_utc": "2026-09-12T12:08:00+00:00"
+  "open_position_count": 4,
+  "closed_position_count": 13,
+  "open_risk": 10.0,
+  "open_max_profit": 9.3355,
+  "estimated_equity": 984.5168,
+  "last_updated_utc": "2026-09-13T13:18:18+00:00"
 }
