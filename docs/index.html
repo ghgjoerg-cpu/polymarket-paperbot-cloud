@@ -77,18 +77,18 @@
 <body>
   <div class="wrap">
     <div class="hero">
-      <div class="status good">ALLES RUHIG</div>
+      <div class="status warn">PAPER_BUY GEFUNDEN</div>
       <h1>Paper Bot Cloud</h1>
       <div class="sub">
-        Letzter Lauf: 2026-09-21T15:04:27+00:00<br>
+        Letzter Lauf: 2026-09-22T13:21:56+00:00<br>
         Läuft über GitHub Actions. Seite aktualisiert sich automatisch alle 120 Sekunden.<br>
         Nur Paper-Trading. Keine echten Orders.
       </div>
       <div class="big-grid">
-        <div class="metric"><span>PAPER_BUY</span><b>0</b></div>
-        <div class="metric"><span>Signale</span><b>44</b></div>
+        <div class="metric"><span>PAPER_BUY</span><b>1</b></div>
+        <div class="metric"><span>Signale</span><b>60</b></div>
         <div class="metric"><span>Fehler</span><b>0</b></div>
-        <div class="metric"><span>Quota</span><b>257</b></div>
+        <div class="metric"><span>Quota</span><b>246</b></div>
       </div>
     </div>
 
@@ -98,20 +98,20 @@
         <div class="card">
           <h3>Tennis</h3>
           <div class="mini-grid">
-            <div><span>Märkte</span><b>222</b></div>
-            <div><span>Signale</span><b>4</b></div>
+            <div><span>Märkte</span><b>173</b></div>
+            <div><span>Signale</span><b>8</b></div>
             <div><span>Buy</span><b>0</b></div>
-            <div><span>Odds</span><b>7</b></div>
+            <div><span>Odds</span><b>6</b></div>
           </div>
         </div>
         
         <div class="card">
           <h3>WNBA</h3>
           <div class="mini-grid">
-            <div><span>Märkte</span><b>14</b></div>
-            <div><span>Signale</span><b>10</b></div>
-            <div><span>Buy</span><b>0</b></div>
-            <div><span>Odds</span><b>3</b></div>
+            <div><span>Märkte</span><b>12</b></div>
+            <div><span>Signale</span><b>16</b></div>
+            <div><span>Buy</span><b>1</b></div>
+            <div><span>Odds</span><b>7</b></div>
           </div>
         </div>
         
@@ -119,19 +119,19 @@
           <h3>UFC</h3>
           <div class="mini-grid">
             <div><span>Märkte</span><b>29</b></div>
-            <div><span>Signale</span><b>30</b></div>
+            <div><span>Signale</span><b>36</b></div>
             <div><span>Buy</span><b>0</b></div>
-            <div><span>Odds</span><b>17</b></div>
+            <div><span>Odds</span><b>24</b></div>
           </div>
         </div>
         
         <div class="card">
           <h3>Fußball</h3>
           <div class="mini-grid">
-            <div><span>Märkte</span><b>3</b></div>
+            <div><span>Märkte</span><b>42</b></div>
             <div><span>Signale</span><b>0</b></div>
             <div><span>Buy</span><b>0</b></div>
-            <div><span>Odds</span><b>27</b></div>
+            <div><span>Odds</span><b>26</b></div>
           </div>
         </div>
         </div>
@@ -140,8 +140,8 @@
     <section>
       <h2>Paper-Portfolio</h2>
       <div class="big-grid">
-        <div class="metric"><span>Cash</span><b>$973.30</b></div>
-        <div class="metric"><span>Offen</span><b>5</b></div>
+        <div class="metric"><span>Cash</span><b>$970.80</b></div>
+        <div class="metric"><span>Offen</span><b>6</b></div>
         <div class="metric"><span>Realisiert</span><b>$-14.20</b></div>
         <div class="metric"><span>Equity</span><b>$985.80</b></div>
       </div>
@@ -149,22 +149,7 @@
 
     <section>
       <h2>Neue Abrechnungen</h2>
-      <div class="signals">
-        <div class="signal">
-          <div class="row">
-            <span class="badge win">WIN</span>
-            <span class="muted">WNBA</span>
-          </div>
-          <h3>Seattle Storm vs. Las Vegas Aces</h3>
-          <div class="pick">Las Vegas Aces</div>
-          <div class="mini-grid">
-            <div><span>Entry</span><b>66.00%</b></div>
-            <div><span>Payout</span><b>$3.79</b></div>
-            <div><span>PnL</span><b>$1.29</b></div>
-            <div><span>Gewinner</span><b>Las Vegas Aces</b></div>
-          </div>
-        </div>
-        </div>
+      <div class="signals"><div class="empty">In diesem Lauf wurde keine Position abgerechnet.</div></div>
     </section>
 
     <section>
@@ -324,7 +309,22 @@
 
     <section>
       <h2>Neue Paper-Trades</h2>
-      <div class="signals"><div class="empty">In diesem Lauf kein neuer Paper-Trade.</div></div>
+      <div class="signals">
+        <div class="signal">
+          <div class="row">
+            <span class="badge buy">NEU</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Indiana Fever vs. Minnesota Lynx</h3>
+          <div class="pick">Indiana Fever</div>
+          <div class="mini-grid">
+            <div><span>Entry</span><b>41.00%</b></div>
+            <div><span>Stake</span><b>$2.50</b></div>
+            <div><span>Netto</span><b>7.50%</b></div>
+            <div><span>Bookies</span><b>14</b></div>
+          </div>
+        </div>
+        </div>
     </section>
 
     <section>
@@ -409,12 +409,44 @@
           </div>
           <p>Eröffnet: 2026-09-15T13:26:21+00:00</p>
         </div>
+        
+        <div class="signal">
+          <div class="row">
+            <span class="badge buy">OPEN</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Indiana Fever vs. Minnesota Lynx</h3>
+          <div class="pick">Indiana Fever</div>
+          <div class="mini-grid">
+            <div><span>Entry</span><b>41.00%</b></div>
+            <div><span>Stake</span><b>$2.50</b></div>
+            <div><span>Shares</span><b>6.0976</b></div>
+            <div><span>Max Profit</span><b>$3.60</b></div>
+          </div>
+          <p>Eröffnet: 2026-09-22T13:21:56+00:00</p>
+        </div>
         </div>
     </section>
 
     <section>
       <h2>PAPER_BUY</h2>
-      <div class="signals"><div class="empty">Kein PAPER_BUY gefunden.</div></div>
+      <div class="signals">
+        <div class="signal">
+          <div class="row">
+            <span class="badge buy">PAPER_BUY</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Indiana Fever vs. Minnesota Lynx</h3>
+          <div class="pick">Indiana Fever</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>41.00%</b></div>
+            <div><span>Fair</span><b>50.00%</b></div>
+            <div><span>Netto</span><b>7.50%</b></div>
+            <div><span>Spread</span><b>2.00%</b></div>
+          </div>
+          <p>-</p>
+        </div>
+        </div>
     </section>
 
     <section>
@@ -422,137 +454,18 @@
       <div class="signals">
         <div class="signal">
           <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">UFC</span>
-          </div>
-          <h3>Dana White&#x27;s Contender Series: Damian Piwowarczyk vs. Emilio Quissua (Light Heavyweight, Main Card)</h3>
-          <div class="pick">Damian Piwowarczyk</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>51.00%</b></div>
-            <div><span>Fair</span><b>54.38%</b></div>
-            <div><span>Netto</span><b>1.88%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>zu wenige Buchmacher; Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">UFC</span>
-          </div>
-          <h3>UFC Fight Night: Elves Brener vs. Josiah Harrell (Lightweight, Main Card)</h3>
-          <div class="pick">Elves Brener</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>45.00%</b></div>
-            <div><span>Fair</span><b>46.95%</b></div>
-            <div><span>Netto</span><b>0.45%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
+            <span class="badge buy">PAPER_BUY</span>
             <span class="muted">WNBA</span>
           </div>
-          <h3>Minnesota Lynx vs. Indiana Fever</h3>
+          <h3>Indiana Fever vs. Minnesota Lynx</h3>
           <div class="pick">Indiana Fever</div>
           <div class="mini-grid">
-            <div><span>Ask</span><b>46.00%</b></div>
-            <div><span>Fair</span><b>47.49%</b></div>
-            <div><span>Netto</span><b>-0.01%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
+            <div><span>Ask</span><b>41.00%</b></div>
+            <div><span>Fair</span><b>50.00%</b></div>
+            <div><span>Netto</span><b>7.50%</b></div>
+            <div><span>Spread</span><b>2.00%</b></div>
           </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">Tennis</span>
-          </div>
-          <h3>Singapore Open: Alycia Parks vs Mei Yamaguchi</h3>
-          <div class="pick">Mei Yamaguchi</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>20.00%</b></div>
-            <div><span>Fair</span><b>21.19%</b></div>
-            <div><span>Netto</span><b>-0.31%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">Tennis</span>
-          </div>
-          <h3>Singapore Open: Barbora Krejcikova vs Anna-Lena Friedsam</h3>
-          <div class="pick">Anna-Lena Friedsam</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>13.00%</b></div>
-            <div><span>Fair</span><b>14.01%</b></div>
-            <div><span>Netto</span><b>-0.49%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">UFC</span>
-          </div>
-          <h3>UFC Fight Night: Robert Bryczek vs. Rodolfo Vieira (Middleweight, Main Card)</h3>
-          <div class="pick">Robert Bryczek</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>43.00%</b></div>
-            <div><span>Fair</span><b>44.01%</b></div>
-            <div><span>Netto</span><b>-0.49%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">UFC</span>
-          </div>
-          <h3>Dana White&#x27;s Contender Series: Norbert Növényi Jr. vs. Theo Haig (Middleweight, Main Card)</h3>
-          <div class="pick">Norbert Növényi Jr.</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>77.00%</b></div>
-            <div><span>Fair</span><b>77.90%</b></div>
-            <div><span>Netto</span><b>-0.60%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>zu wenige Buchmacher; Netto-Edge zu klein</p>
-        </div>
-        
-
-        <div class="signal">
-          <div class="row">
-            <span class="badge skip">SKIP</span>
-            <span class="muted">UFC</span>
-          </div>
-          <h3>UFC Fight Night: Ricky Simon vs. Montel Jackson (Bantamweight, Prelims)</h3>
-          <div class="pick">Ricky Simon</div>
-          <div class="mini-grid">
-            <div><span>Ask</span><b>35.00%</b></div>
-            <div><span>Fair</span><b>35.78%</b></div>
-            <div><span>Netto</span><b>-0.72%</b></div>
-            <div><span>Spread</span><b>1.00%</b></div>
-          </div>
-          <p>Netto-Edge zu klein</p>
+          <p>-</p>
         </div>
         
 
@@ -564,10 +477,27 @@
           <h3>Atlanta Dream vs. New York Liberty</h3>
           <div class="pick">Atlanta Dream</div>
           <div class="mini-grid">
-            <div><span>Ask</span><b>53.00%</b></div>
-            <div><span>Fair</span><b>53.58%</b></div>
-            <div><span>Netto</span><b>-0.92%</b></div>
-            <div><span>Spread</span><b>3.00%</b></div>
+            <div><span>Ask</span><b>50.00%</b></div>
+            <div><span>Fair</span><b>52.51%</b></div>
+            <div><span>Netto</span><b>1.01%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Singapore Open: Mirra Andreeva vs Aliaksandra Sasnovich</h3>
+          <div class="pick">Aliaksandra Sasnovich</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>12.00%</b></div>
+            <div><span>Fair</span><b>14.01%</b></div>
+            <div><span>Netto</span><b>0.51%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
           </div>
           <p>Netto-Edge zu klein</p>
         </div>
@@ -578,12 +508,46 @@
             <span class="badge skip">SKIP</span>
             <span class="muted">UFC</span>
           </div>
-          <h3>UFC Fight Night: Ilimbek Akylbek Uulu vs. Mehemmedeli Osmanli (Bantamweight, Main Card)</h3>
-          <div class="pick">Ilimbek Akylbek Uulu</div>
+          <h3>UFC Fight Night: Elves Brener vs. Josiah Harrell (Lightweight, Main Card)</h3>
+          <div class="pick">Elves Brener</div>
           <div class="mini-grid">
-            <div><span>Ask</span><b>29.00%</b></div>
-            <div><span>Fair</span><b>29.37%</b></div>
-            <div><span>Netto</span><b>-1.13%</b></div>
+            <div><span>Ask</span><b>44.00%</b></div>
+            <div><span>Fair</span><b>45.62%</b></div>
+            <div><span>Netto</span><b>0.12%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Connecticut Sun vs. Washington Mystics</h3>
+          <div class="pick">Connecticut Sun</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>9.00%</b></div>
+            <div><span>Fair</span><b>10.54%</b></div>
+            <div><span>Netto</span><b>0.04%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Singapore Open: Alycia Parks vs Leylah Fernandez</h3>
+          <div class="pick">Alycia Parks</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>25.00%</b></div>
+            <div><span>Fair</span><b>26.38%</b></div>
+            <div><span>Netto</span><b>-0.12%</b></div>
             <div><span>Spread</span><b>2.00%</b></div>
           </div>
           <p>Netto-Edge zu klein</p>
@@ -595,12 +559,12 @@
             <span class="badge skip">SKIP</span>
             <span class="muted">WNBA</span>
           </div>
-          <h3>Dallas Wings vs. Phoenix Mercury</h3>
-          <div class="pick">Phoenix Mercury</div>
+          <h3>Golden State Valkyries vs. Portland Fire</h3>
+          <div class="pick">Portland Fire</div>
           <div class="mini-grid">
-            <div><span>Ask</span><b>33.00%</b></div>
-            <div><span>Fair</span><b>33.25%</b></div>
-            <div><span>Netto</span><b>-1.25%</b></div>
+            <div><span>Ask</span><b>11.00%</b></div>
+            <div><span>Fair</span><b>12.38%</b></div>
+            <div><span>Netto</span><b>-0.12%</b></div>
             <div><span>Spread</span><b>1.00%</b></div>
           </div>
           <p>Netto-Edge zu klein</p>
@@ -616,8 +580,42 @@
           <div class="pick">Valesca Machado</div>
           <div class="mini-grid">
             <div><span>Ask</span><b>64.00%</b></div>
-            <div><span>Fair</span><b>64.20%</b></div>
-            <div><span>Netto</span><b>-1.30%</b></div>
+            <div><span>Fair</span><b>65.12%</b></div>
+            <div><span>Netto</span><b>-0.38%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>zu wenig Ask-Liquidität; Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">UFC</span>
+          </div>
+          <h3>UFC Fight Night: Vanessa Demopoulos vs. Yazmin Jauregui (Women&#x27;s Strawweight, Prelims)</h3>
+          <div class="pick">Vanessa Demopoulos</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>13.00%</b></div>
+            <div><span>Fair</span><b>14.06%</b></div>
+            <div><span>Netto</span><b>-0.44%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Los Angeles Sparks vs. Las Vegas Aces</h3>
+          <div class="pick">Los Angeles Sparks</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>9.00%</b></div>
+            <div><span>Fair</span><b>10.04%</b></div>
+            <div><span>Netto</span><b>-0.46%</b></div>
             <div><span>Spread</span><b>1.00%</b></div>
           </div>
           <p>Netto-Edge zu klein</p>
@@ -629,12 +627,29 @@
             <span class="badge skip">SKIP</span>
             <span class="muted">UFC</span>
           </div>
-          <h3>UFC Fight Night: Raoni Barcelos vs. Raul Rosas Jr. (Bantamweight, Main Card)</h3>
-          <div class="pick">Raoni Barcelos</div>
+          <h3>UFC Fight Night: Brady Hiestand vs. Rinya Nakamura (Bantamweight, Main Card)</h3>
+          <div class="pick">Brady Hiestand</div>
           <div class="mini-grid">
-            <div><span>Ask</span><b>38.00%</b></div>
-            <div><span>Fair</span><b>38.12%</b></div>
-            <div><span>Netto</span><b>-1.38%</b></div>
+            <div><span>Ask</span><b>25.00%</b></div>
+            <div><span>Fair</span><b>25.93%</b></div>
+            <div><span>Netto</span><b>-0.57%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">Tennis</span>
+          </div>
+          <h3>Singapore Open: Maria Sakkari vs Linda Fruhvirtova</h3>
+          <div class="pick">Linda Fruhvirtova</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>22.00%</b></div>
+            <div><span>Fair</span><b>22.65%</b></div>
+            <div><span>Netto</span><b>-0.85%</b></div>
             <div><span>Spread</span><b>1.00%</b></div>
           </div>
           <p>Netto-Edge zu klein</p>
@@ -649,9 +664,26 @@
           <h3>UFC Fight Night: Norma Dumont vs. Ailin Perez (Women&#x27;s Bantamweight, Prelims)</h3>
           <div class="pick">Norma Dumont</div>
           <div class="mini-grid">
-            <div><span>Ask</span><b>45.00%</b></div>
-            <div><span>Fair</span><b>45.10%</b></div>
-            <div><span>Netto</span><b>-1.40%</b></div>
+            <div><span>Ask</span><b>44.00%</b></div>
+            <div><span>Fair</span><b>44.62%</b></div>
+            <div><span>Netto</span><b>-0.88%</b></div>
+            <div><span>Spread</span><b>1.00%</b></div>
+          </div>
+          <p>Netto-Edge zu klein</p>
+        </div>
+        
+
+        <div class="signal">
+          <div class="row">
+            <span class="badge skip">SKIP</span>
+            <span class="muted">WNBA</span>
+          </div>
+          <h3>Toronto Tempo vs. Chicago Sky</h3>
+          <div class="pick">Toronto Tempo</div>
+          <div class="mini-grid">
+            <div><span>Ask</span><b>32.00%</b></div>
+            <div><span>Fair</span><b>32.56%</b></div>
+            <div><span>Netto</span><b>-0.94%</b></div>
             <div><span>Spread</span><b>1.00%</b></div>
           </div>
           <p>Netto-Edge zu klein</p>
@@ -664,6 +696,13 @@
       <table>
         <thead><tr><th>Zeit UTC</th><th>Buy</th><th>Signale</th><th>Quota</th></tr></thead>
         <tbody>
+        <tr>
+          <td>2026-09-22T13:21:56+00:00</td>
+          <td class="warn">1</td>
+          <td>60</td>
+          <td>246</td>
+        </tr>
+        
         <tr>
           <td>2026-09-21T15:04:27+00:00</td>
           <td class="good">0</td>
@@ -767,13 +806,6 @@
           <td class="good">0</td>
           <td>86</td>
           <td>416</td>
-        </tr>
-        
-        <tr>
-          <td>2026-09-06T12:07:24+00:00</td>
-          <td class="good">0</td>
-          <td>80</td>
-          <td>428</td>
         </tr>
         </tbody>
       </table>
