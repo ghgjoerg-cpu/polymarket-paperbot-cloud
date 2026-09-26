@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-09-25T13:36:46+00:00",
+      "last_settlement_check_utc": "2026-09-26T12:58:32+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-09-25T13:36:46+00:00",
+      "last_settlement_check_utc": "2026-09-26T12:58:32+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-09-25T13:36:46+00:00",
+      "last_settlement_check_utc": "2026-09-26T12:58:33+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-09-25T13:36:46+00:00",
+      "last_settlement_check_utc": "2026-09-26T12:58:33+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "11359980025708893746230142282528374208404737903693528684255829599839062104384",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "21b05997d2987720b8f0e79d765b4a1d",
-      "last_settlement_check_utc": "2026-09-25T13:36:47+00:00",
+      "last_settlement_check_utc": "2026-09-26T12:58:33+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -841,5 +841,5 @@
   "open_risk": 12.5,
   "open_max_profit": 11.7375,
   "estimated_equity": 983.3047,
-  "last_updated_utc": "2026-09-25T13:36:47+00:00"
+  "last_updated_utc": "2026-09-26T12:58:33+00:00"
 }
