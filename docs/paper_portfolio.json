@@ -1,7 +1,7 @@
 {
   "bankroll_start": 1000.0,
   "cash": 960.8047,
-  "realized_pnl": -16.6954,
+  "realized_pnl": -19.1954,
   "open_positions": [
     {
       "position_key": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-09-29T14:50:05+00:00",
+      "last_settlement_check_utc": "2026-09-30T14:52:39+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-09-29T14:50:05+00:00",
+      "last_settlement_check_utc": "2026-09-30T14:52:39+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-09-29T14:50:05+00:00",
+      "last_settlement_check_utc": "2026-09-30T14:52:39+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-09-29T14:50:05+00:00",
+      "last_settlement_check_utc": "2026-09-30T14:52:40+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "11359980025708893746230142282528374208404737903693528684255829599839062104384",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "21b05997d2987720b8f0e79d765b4a1d",
-      "last_settlement_check_utc": "2026-09-29T14:50:06+00:00",
+      "last_settlement_check_utc": "2026-09-30T14:52:40+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -186,43 +186,6 @@
         "uma_resolution_status": "resolved",
         "automatically_resolved": true,
         "reason": "Noch keine eindeutigen 1/0-Endpreise"
-      }
-    },
-    {
-      "position_key": "50702035043519410555840944669153340611918151601914728795238398788156940526874",
-      "status": "OPEN",
-      "opened_at_utc": "2026-09-27T13:50:09+00:00",
-      "sport_name": "WNBA",
-      "event_title": "Las Vegas Aces vs. Indiana Fever",
-      "kickoff_utc": "2026-09-29T22:30:00+00:00",
-      "selection": "Las Vegas Aces",
-      "opponent": "Indiana Fever",
-      "entry_price": 0.47,
-      "stake": 2.5,
-      "shares": 5.319148936170213,
-      "max_payout": 5.319148936170213,
-      "max_profit": 2.8191489361702127,
-      "max_loss": 2.5,
-      "fair_probability_at_entry": 0.6025316455696202,
-      "net_edge_at_entry": 0.11753164556962026,
-      "spread_at_entry": 0.009999999999999953,
-      "bookmaker_count": 15,
-      "polymarket_event_id": "1081042",
-      "polymarket_market_id": "4952599",
-      "polymarket_token_id": "50702035043519410555840944669153340611918151601914728795238398788156940526874",
-      "odds_api_sport_key": "basketball_wnba",
-      "odds_api_event_id": "a0ce9e6bd1e1c5eedac84fa0e0c2d5d6",
-      "last_settlement_check_utc": "2026-09-29T14:50:06+00:00",
-      "settlement_check": {
-        "resolved": false,
-        "result": "OPEN",
-        "selected_outcome": "Las Vegas Aces",
-        "selected_price": null,
-        "winner_outcome": null,
-        "market_closed": false,
-        "uma_resolution_status": null,
-        "automatically_resolved": false,
-        "reason": "Markt noch nicht geschlossen"
       }
     },
     {
@@ -248,7 +211,19 @@
       "polymarket_market_id": "5098090",
       "polymarket_token_id": "14746011710299805459238963801151342460062178722984757740136100252200661007215",
       "odds_api_sport_key": "soccer_italy_serie_a",
-      "odds_api_event_id": "f4a28510bb0c835280a2aca709c19d50"
+      "odds_api_event_id": "f4a28510bb0c835280a2aca709c19d50",
+      "last_settlement_check_utc": "2026-09-30T14:52:40+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Torino FC",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
     },
     {
       "position_key": "25576808302106765020123517640913542810781152902964527363092567397775348269182",
@@ -273,7 +248,19 @@
       "polymarket_market_id": "5098091",
       "polymarket_token_id": "25576808302106765020123517640913542810781152902964527363092567397775348269182",
       "odds_api_sport_key": "soccer_italy_serie_a",
-      "odds_api_event_id": "f4a28510bb0c835280a2aca709c19d50"
+      "odds_api_event_id": "f4a28510bb0c835280a2aca709c19d50",
+      "last_settlement_check_utc": "2026-09-30T14:52:41+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Draw",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
     },
     {
       "position_key": "88798964875804409216316124940683776768399792907049164311382275881183211765403",
@@ -298,7 +285,19 @@
       "polymarket_market_id": "4952606",
       "polymarket_token_id": "88798964875804409216316124940683776768399792907049164311382275881183211765403",
       "odds_api_sport_key": "basketball_wnba",
-      "odds_api_event_id": "9c267dad149001fe5eccdf229290ec13"
+      "odds_api_event_id": "9c267dad149001fe5eccdf229290ec13",
+      "last_settlement_check_utc": "2026-09-30T14:52:41+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Dallas Wings",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
     }
   ],
   "closed_positions": [
@@ -946,12 +945,55 @@
       "payout": 0.0,
       "realized_pnl": -2.5,
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
+    },
+    {
+      "position_key": "50702035043519410555840944669153340611918151601914728795238398788156940526874",
+      "status": "LOSS",
+      "opened_at_utc": "2026-09-27T13:50:09+00:00",
+      "sport_name": "WNBA",
+      "event_title": "Las Vegas Aces vs. Indiana Fever",
+      "kickoff_utc": "2026-09-29T22:30:00+00:00",
+      "selection": "Las Vegas Aces",
+      "opponent": "Indiana Fever",
+      "entry_price": 0.47,
+      "stake": 2.5,
+      "shares": 5.319148936170213,
+      "max_payout": 5.319148936170213,
+      "max_profit": 2.8191489361702127,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.6025316455696202,
+      "net_edge_at_entry": 0.11753164556962026,
+      "spread_at_entry": 0.009999999999999953,
+      "bookmaker_count": 15,
+      "polymarket_event_id": "1081042",
+      "polymarket_market_id": "4952599",
+      "polymarket_token_id": "50702035043519410555840944669153340611918151601914728795238398788156940526874",
+      "odds_api_sport_key": "basketball_wnba",
+      "odds_api_event_id": "a0ce9e6bd1e1c5eedac84fa0e0c2d5d6",
+      "last_settlement_check_utc": "2026-09-30T14:52:40+00:00",
+      "settlement_check": {
+        "resolved": true,
+        "result": "LOSS",
+        "selected_outcome": "Las Vegas Aces",
+        "selected_price": 0.0,
+        "winner_outcome": "Indiana Fever",
+        "market_closed": true,
+        "uma_resolution_status": "resolved",
+        "automatically_resolved": true,
+        "reason": "Eindeutiger geschlossener Markt mit 1/0-Endpreisen"
+      },
+      "closed_at_utc": "2026-09-30T14:52:40+00:00",
+      "settlement_price": 0.0,
+      "winner_outcome": "Indiana Fever",
+      "payout": 0.0,
+      "realized_pnl": -2.5,
+      "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 9,
-  "closed_position_count": 15,
-  "open_risk": 22.5,
-  "open_max_profit": 30.2709,
-  "estimated_equity": 983.3047,
-  "last_updated_utc": "2026-09-29T14:50:06+00:00"
+  "open_position_count": 8,
+  "closed_position_count": 16,
+  "open_risk": 20.0,
+  "open_max_profit": 27.4518,
+  "estimated_equity": 980.8047,
+  "last_updated_utc": "2026-09-30T14:52:41+00:00"
 }
