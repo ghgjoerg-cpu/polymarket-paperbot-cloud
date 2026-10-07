@@ -1,6 +1,6 @@
 {
   "bankroll_start": 1000.0,
-  "cash": 958.3047,
+  "cash": 955.8047,
   "realized_pnl": -21.6954,
   "open_positions": [
     {
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-10-06T15:02:23+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:52+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-10-06T15:02:23+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:53+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-10-06T15:02:23+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:53+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-10-06T15:02:24+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:53+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "11359980025708893746230142282528374208404737903693528684255829599839062104384",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "21b05997d2987720b8f0e79d765b4a1d",
-      "last_settlement_check_utc": "2026-10-06T15:02:24+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:53+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -212,7 +212,7 @@
       "polymarket_token_id": "14746011710299805459238963801151342460062178722984757740136100252200661007215",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "f4a28510bb0c835280a2aca709c19d50",
-      "last_settlement_check_utc": "2026-10-06T15:02:24+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:54+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -249,7 +249,7 @@
       "polymarket_token_id": "25576808302106765020123517640913542810781152902964527363092567397775348269182",
       "odds_api_sport_key": "soccer_italy_serie_a",
       "odds_api_event_id": "f4a28510bb0c835280a2aca709c19d50",
-      "last_settlement_check_utc": "2026-10-06T15:02:24+00:00",
+      "last_settlement_check_utc": "2026-10-07T15:29:54+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -285,7 +285,44 @@
       "polymarket_market_id": "5221105",
       "polymarket_token_id": "25012526450953223497126667595935733722367990700580497715169378524975909916254",
       "odds_api_sport_key": "basketball_wnba",
-      "odds_api_event_id": "6608125b38823d94d6eef41f1717d86c"
+      "odds_api_event_id": "6608125b38823d94d6eef41f1717d86c",
+      "last_settlement_check_utc": "2026-10-07T15:29:54+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Atlanta Dream",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
+    },
+    {
+      "position_key": "30667679610794416970991866895399782635049119137026073060543669794691343711811",
+      "status": "OPEN",
+      "opened_at_utc": "2026-10-07T15:29:54+00:00",
+      "sport_name": "WNBA",
+      "event_title": "Golden State Valkyries vs. Las Vegas Aces",
+      "kickoff_utc": "2026-10-10T01:30:00+00:00",
+      "selection": "Golden State Valkyries",
+      "opponent": "Las Vegas Aces",
+      "entry_price": 0.48,
+      "stake": 2.5,
+      "shares": 5.208333333333334,
+      "max_payout": 5.208333333333334,
+      "max_profit": 2.708333333333334,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.5318979266347688,
+      "net_edge_at_entry": 0.03689792663476876,
+      "spread_at_entry": 0.06,
+      "bookmaker_count": 16,
+      "polymarket_event_id": "1125498",
+      "polymarket_market_id": "5242638",
+      "polymarket_token_id": "30667679610794416970991866895399782635049119137026073060543669794691343711811",
+      "odds_api_sport_key": "basketball_wnba",
+      "odds_api_event_id": "67cfb783c5290b2ff1c47303c87e9cf1"
     }
   ],
   "closed_positions": [
@@ -1021,10 +1058,10 @@
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 8,
+  "open_position_count": 9,
   "closed_position_count": 17,
-  "open_risk": 20.0,
-  "open_max_profit": 23.7315,
+  "open_risk": 22.5,
+  "open_max_profit": 26.4399,
   "estimated_equity": 978.3047,
-  "last_updated_utc": "2026-10-06T15:02:24+00:00"
+  "last_updated_utc": "2026-10-07T15:29:54+00:00"
 }
