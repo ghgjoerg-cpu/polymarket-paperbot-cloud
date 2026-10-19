@@ -1,6 +1,6 @@
 {
   "bankroll_start": 1000.0,
-  "cash": 971.8908,
+  "cash": 969.3908,
   "realized_pnl": -13.1094,
   "open_positions": [
     {
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-10-18T12:36:11+00:00",
+      "last_settlement_check_utc": "2026-10-19T15:32:02+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-10-18T12:36:11+00:00",
+      "last_settlement_check_utc": "2026-10-19T15:32:02+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-10-18T12:36:11+00:00",
+      "last_settlement_check_utc": "2026-10-19T15:32:02+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-10-18T12:36:12+00:00",
+      "last_settlement_check_utc": "2026-10-19T15:32:03+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "11359980025708893746230142282528374208404737903693528684255829599839062104384",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "21b05997d2987720b8f0e79d765b4a1d",
-      "last_settlement_check_utc": "2026-10-18T12:36:12+00:00",
+      "last_settlement_check_utc": "2026-10-19T15:32:03+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -210,6 +210,43 @@
       "polymarket_event_id": "1163089",
       "polymarket_market_id": "5481971",
       "polymarket_token_id": "110376580927643124644684358801877181519508876769623290282152621424700533862707",
+      "odds_api_sport_key": "basketball_wnba",
+      "odds_api_event_id": "9e644e7765968b5d5e3e42384573f6a4",
+      "last_settlement_check_utc": "2026-10-19T15:32:03+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Golden State Valkyries",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
+    },
+    {
+      "position_key": "62490091192205259690915325438820125180475348504237818020066100893119002471192",
+      "status": "OPEN",
+      "opened_at_utc": "2026-10-19T15:32:03+00:00",
+      "sport_name": "WNBA",
+      "event_title": "Golden State Valkyries vs. Atlanta Dream",
+      "kickoff_utc": "2026-10-22T00:00:00+00:00",
+      "selection": "Golden State Valkyries",
+      "opponent": "Atlanta Dream",
+      "entry_price": 0.44,
+      "stake": 2.5,
+      "shares": 5.681818181818182,
+      "max_payout": 5.681818181818182,
+      "max_profit": 3.1818181818181817,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.5483028720626633,
+      "net_edge_at_entry": 0.09330287206266324,
+      "spread_at_entry": 0.06,
+      "bookmaker_count": 17,
+      "polymarket_event_id": "1185522",
+      "polymarket_market_id": "5675146",
+      "polymarket_token_id": "62490091192205259690915325438820125180475348504237818020066100893119002471192",
       "odds_api_sport_key": "basketball_wnba",
       "odds_api_event_id": "9e644e7765968b5d5e3e42384573f6a4"
     }
@@ -1162,10 +1199,10 @@
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 6,
+  "open_position_count": 7,
   "closed_position_count": 22,
-  "open_risk": 15.0,
-  "open_max_profit": 14.4458,
+  "open_risk": 17.5,
+  "open_max_profit": 17.6276,
   "estimated_equity": 986.8908,
-  "last_updated_utc": "2026-10-18T12:36:12+00:00"
+  "last_updated_utc": "2026-10-19T15:32:03+00:00"
 }
