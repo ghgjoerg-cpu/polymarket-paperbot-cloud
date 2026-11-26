@@ -1,16 +1,16 @@
 {
-  "generated_at_utc": "2026-11-25T18:37:27+00:00",
+  "generated_at_utc": "2026-11-26T18:20:01+00:00",
   "paper_buy_count": 0,
   "signal_count": 0,
-  "quota_remaining": "250",
-  "quota_used": "250",
+  "quota_remaining": "241",
+  "quota_used": "259",
   "per_target": [
     {
       "name": "Tennis",
-      "polymarket_events": 279,
-      "match_winner_markets": 203,
-      "outcome_selections": 406,
-      "orderbooks_loaded": 406,
+      "polymarket_events": 160,
+      "match_winner_markets": 109,
+      "outcome_selections": 218,
+      "orderbooks_loaded": 218,
       "odds_keys": [],
       "odds_events": 0,
       "signals": 0,
@@ -29,20 +29,20 @@
     },
     {
       "name": "UFC",
-      "polymarket_events": 40,
+      "polymarket_events": 37,
       "match_winner_markets": 0,
       "outcome_selections": 0,
       "orderbooks_loaded": 0,
       "odds_keys": [
         "mma_mixed_martial_arts"
       ],
-      "odds_events": 26,
+      "odds_events": 33,
       "signals": 0,
       "paper_buys": 0
     },
     {
       "name": "Fußball",
-      "polymarket_events": 98,
+      "polymarket_events": 46,
       "football_tag_ids": [
         1,
         100639,
@@ -57,9 +57,9 @@
         104350,
         104351
       ],
-      "match_winner_markets": 15,
-      "outcome_selections": 15,
-      "orderbooks_loaded": 15,
+      "match_winner_markets": 18,
+      "outcome_selections": 18,
+      "orderbooks_loaded": 18,
       "odds_keys": [
         "soccer_uefa_champs_league",
         "soccer_uefa_europa_league",
@@ -70,7 +70,7 @@
         "soccer_italy_serie_a",
         "soccer_france_ligue_one"
       ],
-      "odds_events": 122,
+      "odds_events": 131,
       "signals": 0,
       "paper_buys": 0
     }
@@ -108,7 +108,7 @@
         "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
         "odds_api_sport_key": "mma_mixed_martial_arts",
         "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-        "last_settlement_check_utc": "2026-11-25T18:37:25+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:00+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -145,7 +145,7 @@
         "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
         "odds_api_sport_key": "mma_mixed_martial_arts",
         "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-        "last_settlement_check_utc": "2026-11-25T18:37:25+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:00+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -182,7 +182,7 @@
         "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
         "odds_api_sport_key": "mma_mixed_martial_arts",
         "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-        "last_settlement_check_utc": "2026-11-25T18:37:25+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:00+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -219,7 +219,7 @@
         "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
         "odds_api_sport_key": "tennis_wta_cincinnati_open",
         "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-        "last_settlement_check_utc": "2026-11-25T18:37:25+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:00+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -256,7 +256,7 @@
         "polymarket_token_id": "11359980025708893746230142282528374208404737903693528684255829599839062104384",
         "odds_api_sport_key": "mma_mixed_martial_arts",
         "odds_api_event_id": "21b05997d2987720b8f0e79d765b4a1d",
-        "last_settlement_check_utc": "2026-11-25T18:37:26+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -293,7 +293,7 @@
         "polymarket_token_id": "48577617416490379482719568257918863376959955181236274006246764999976374217567",
         "odds_api_sport_key": "mma_mixed_martial_arts",
         "odds_api_event_id": "1211c435f9212a6bf76568362585c7fd",
-        "last_settlement_check_utc": "2026-11-25T18:37:26+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -330,7 +330,7 @@
         "polymarket_token_id": "59984220622198489532192801097074681280986635560501016305787496751365736724394",
         "odds_api_sport_key": "soccer_uefa_europa_league",
         "odds_api_event_id": "5902b4703e9ddc1f573091e14107834c",
-        "last_settlement_check_utc": "2026-11-25T18:37:26+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -367,7 +367,7 @@
         "polymarket_token_id": "24363814108854195485913967419680476693473562968843856350579584413625943175179",
         "odds_api_sport_key": "soccer_uefa_europa_league",
         "odds_api_event_id": "707c513bfa43b45b7813126e09ad08d8",
-        "last_settlement_check_utc": "2026-11-25T18:37:26+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -404,7 +404,7 @@
         "polymarket_token_id": "100718107075343971958664571699093852182268893923510977604647343248665045905523",
         "odds_api_sport_key": "soccer_uefa_europa_league",
         "odds_api_event_id": "5902b4703e9ddc1f573091e14107834c",
-        "last_settlement_check_utc": "2026-11-25T18:37:26+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -441,7 +441,7 @@
         "polymarket_token_id": "5821490345392843964551785312286613502459783174197882083764971570730185343462",
         "odds_api_sport_key": "soccer_uefa_europa_league",
         "odds_api_event_id": "707c513bfa43b45b7813126e09ad08d8",
-        "last_settlement_check_utc": "2026-11-25T18:37:27+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -478,7 +478,7 @@
         "polymarket_token_id": "14936392875998863930578197525462754068181862211384751110268087587998061278397",
         "odds_api_sport_key": "soccer_spain_la_liga",
         "odds_api_event_id": "33d92dabbd2606dfe9d31058f7b20cc8",
-        "last_settlement_check_utc": "2026-11-25T18:37:27+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -515,7 +515,7 @@
         "polymarket_token_id": "52857536928324228627723035671528790068555079165950967405642767981060967889025",
         "odds_api_sport_key": "soccer_spain_la_liga",
         "odds_api_event_id": "33d92dabbd2606dfe9d31058f7b20cc8",
-        "last_settlement_check_utc": "2026-11-25T18:37:27+00:00",
+        "last_settlement_check_utc": "2026-11-26T18:20:01+00:00",
         "settlement_check": {
           "resolved": false,
           "result": "OPEN",
@@ -1654,7 +1654,7 @@
     "open_risk": 30.0,
     "open_max_profit": 97.2646,
     "estimated_equity": 976.8908,
-    "last_updated_utc": "2026-11-25T18:37:27+00:00"
+    "last_updated_utc": "2026-11-26T18:20:01+00:00"
   },
   "best_signals": [],
   "signals": [],
