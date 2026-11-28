@@ -1,6 +1,6 @@
 {
   "bankroll_start": 1000.0,
-  "cash": 941.8908,
+  "cash": 936.8908,
   "realized_pnl": -33.1094,
   "open_positions": [
     {
@@ -27,7 +27,7 @@
       "polymarket_token_id": "28772134021769448480890050853470465003359886493884515044197869235833764250028",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "e7490ebc80facb095f182d589a4c8490",
-      "last_settlement_check_utc": "2026-11-27T18:03:52+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -64,7 +64,7 @@
       "polymarket_token_id": "31174485545012622680744632010357416264529839717800002111221218193628498921495",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "96dce0976c858e0da8478c1b12792f89",
-      "last_settlement_check_utc": "2026-11-27T18:03:52+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -101,7 +101,7 @@
       "polymarket_token_id": "74249419294509337578938550222231721031658905490818512147870735309536874596934",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "469466ee687542df0de522b0bfc4641f",
-      "last_settlement_check_utc": "2026-11-27T18:03:52+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -138,7 +138,7 @@
       "polymarket_token_id": "25424998924104584374454835252677444721089141605085817710351783693389666522505",
       "odds_api_sport_key": "tennis_wta_cincinnati_open",
       "odds_api_event_id": "7c271f715f70be9e5ab5a998c20ef9a8",
-      "last_settlement_check_utc": "2026-11-27T18:03:52+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -175,7 +175,7 @@
       "polymarket_token_id": "11359980025708893746230142282528374208404737903693528684255829599839062104384",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "21b05997d2987720b8f0e79d765b4a1d",
-      "last_settlement_check_utc": "2026-11-27T18:03:52+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -212,7 +212,7 @@
       "polymarket_token_id": "48577617416490379482719568257918863376959955181236274006246764999976374217567",
       "odds_api_sport_key": "mma_mixed_martial_arts",
       "odds_api_event_id": "1211c435f9212a6bf76568362585c7fd",
-      "last_settlement_check_utc": "2026-11-27T18:03:52+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -249,7 +249,7 @@
       "polymarket_token_id": "14936392875998863930578197525462754068181862211384751110268087587998061278397",
       "odds_api_sport_key": "soccer_spain_la_liga",
       "odds_api_event_id": "33d92dabbd2606dfe9d31058f7b20cc8",
-      "last_settlement_check_utc": "2026-11-27T18:03:53+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -286,7 +286,7 @@
       "polymarket_token_id": "52857536928324228627723035671528790068555079165950967405642767981060967889025",
       "odds_api_sport_key": "soccer_spain_la_liga",
       "odds_api_event_id": "33d92dabbd2606dfe9d31058f7b20cc8",
-      "last_settlement_check_utc": "2026-11-27T18:03:53+00:00",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
       "settlement_check": {
         "resolved": false,
         "result": "OPEN",
@@ -322,7 +322,19 @@
       "polymarket_market_id": "7391149",
       "polymarket_token_id": "69265133633543013624990961822963999767326683886993117588418402613012838337229",
       "odds_api_sport_key": "soccer_spain_la_liga",
-      "odds_api_event_id": "48c892928774ec33befa04f76c52cb4a"
+      "odds_api_event_id": "48c892928774ec33befa04f76c52cb4a",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "RC Deportivo A Coruña",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
     },
     {
       "position_key": "56930000299534812217633688282827366049162657534210438509366830737512562790600",
@@ -347,7 +359,69 @@
       "polymarket_market_id": "7391148",
       "polymarket_token_id": "56930000299534812217633688282827366049162657534210438509366830737512562790600",
       "odds_api_sport_key": "soccer_spain_la_liga",
-      "odds_api_event_id": "48c892928774ec33befa04f76c52cb4a"
+      "odds_api_event_id": "48c892928774ec33befa04f76c52cb4a",
+      "last_settlement_check_utc": "2026-11-28T16:47:29+00:00",
+      "settlement_check": {
+        "resolved": false,
+        "result": "OPEN",
+        "selected_outcome": "Draw",
+        "selected_price": null,
+        "winner_outcome": null,
+        "market_closed": false,
+        "uma_resolution_status": null,
+        "automatically_resolved": false,
+        "reason": "Markt noch nicht geschlossen"
+      }
+    },
+    {
+      "position_key": "101276858976088666170939736666216542008661745993723048988048430479377609048980",
+      "status": "OPEN",
+      "opened_at_utc": "2026-11-28T16:47:29+00:00",
+      "sport_name": "Fußball",
+      "event_title": "Athletic Club vs. Real Madrid CF",
+      "kickoff_utc": "2026-12-06T15:15:00+00:00",
+      "selection": "Real Madrid CF",
+      "opponent": "Athletic Club",
+      "entry_price": 0.62,
+      "stake": 2.5,
+      "shares": 4.032258064516129,
+      "max_payout": 4.032258064516129,
+      "max_profit": 1.532258064516129,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.7238095238095239,
+      "net_edge_at_entry": 0.0888095238095239,
+      "spread_at_entry": 0.05999999999999994,
+      "bookmaker_count": 17,
+      "polymarket_event_id": "1473643",
+      "polymarket_market_id": "7423684",
+      "polymarket_token_id": "101276858976088666170939736666216542008661745993723048988048430479377609048980",
+      "odds_api_sport_key": "soccer_spain_la_liga",
+      "odds_api_event_id": "59e9722830fbf906910c1526eddf110c"
+    },
+    {
+      "position_key": "2778638246731038645529974369279374594876437354238187827665675930287653343509",
+      "status": "OPEN",
+      "opened_at_utc": "2026-11-28T16:47:29+00:00",
+      "sport_name": "Fußball",
+      "event_title": "Athletic Club vs. Real Madrid CF",
+      "kickoff_utc": "2026-12-06T15:15:00+00:00",
+      "selection": "Draw",
+      "opponent": "Athletic Club",
+      "entry_price": 0.23,
+      "stake": 2.5,
+      "shares": 10.869565217391305,
+      "max_payout": 10.869565217391305,
+      "max_profit": 8.369565217391305,
+      "max_loss": 2.5,
+      "fair_probability_at_entry": 0.2761904761904762,
+      "net_edge_at_entry": 0.031190476190476185,
+      "spread_at_entry": 0.05000000000000002,
+      "bookmaker_count": 17,
+      "polymarket_event_id": "1473643",
+      "polymarket_market_id": "7423682",
+      "polymarket_token_id": "2778638246731038645529974369279374594876437354238187827665675930287653343509",
+      "odds_api_sport_key": "soccer_spain_la_liga",
+      "odds_api_event_id": "59e9722830fbf906910c1526eddf110c"
     }
   ],
   "closed_positions": [
@@ -1642,10 +1716,10 @@
       "resolution_method": "Polymarket Gamma closed market + terminal outcomePrices"
     }
   ],
-  "open_position_count": 10,
+  "open_position_count": 12,
   "closed_position_count": 30,
-  "open_risk": 25.0,
-  "open_max_profit": 39.9707,
+  "open_risk": 30.0,
+  "open_max_profit": 49.8725,
   "estimated_equity": 966.8908,
-  "last_updated_utc": "2026-11-27T18:03:53+00:00"
+  "last_updated_utc": "2026-11-28T16:47:29+00:00"
 }
